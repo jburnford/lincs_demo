@@ -1,0 +1,28 @@
+#+ summary: The Boucher disambiguation — two LINCS URIs, one career at Betsiamites
+#+ endpoint: https://fuseki.lincsproject.ca/lincs/sparql
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX event: <http://id.lincsproject.ca/event/>
+PREFIX lincs: <http://id.lincsproject.ca/>
+
+# LINCS stores this career under TWO separate URIs with slightly
+# different names. This query surfaces both side-by-side.
+SELECT ?uri ?agentName ?role ?place ?begin WHERE {
+  VALUES ?uri { lincs:Flj4VecmJa5 lincs:Dut48Z2iAM7 }
+  GRAPH <http://graph.lincsproject.ca/hist-canada/ind-affairs> {
+    ?uri rdfs:label ?agentName .
+    ?occ a crm:E7_Activity ;
+         crm:P14_carried_out_by ?uri ;
+         crm:P2_has_type event:OccupationEvent ;
+         rdfs:label ?role ;
+         crm:P4_has_time-span ?ts .
+    ?ts crm:P82a_begin_of_the_begin ?begin .
+    OPTIONAL {
+      ?occ crm:P7_took_place_at ?placeNode .
+      ?placeNode rdfs:label ?place .
+      FILTER(!CONTAINS(?place, ","))
+    }
+  }
+}
+ORDER BY ?uri ?begin

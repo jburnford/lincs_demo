@@ -1,0 +1,294 @@
+/* Indian Affairs LOD Demo — historian-facing typography */
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfcf7;
+  --rule: #d8d3c4;
+  --accent: #8b2e2e;
+  --accent-soft: #f1e6e6;
+  --muted: #6a6555;
+  --bc: #2c6e85;
+  --prairies: #b87333;
+  --quebec: #4a6e3a;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+.hero {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 4rem 0 3rem;
+  border-bottom: 6px solid var(--accent);
+}
+.hero .kicker {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  color: var(--accent-soft);
+  margin: 0 0 1rem;
+}
+.hero h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+.hero .subtitle {
+  font-size: 1.25rem;
+  max-width: 38em;
+  margin: 0 0 1.5rem;
+  color: #ece7d8;
+}
+.hero .meta {
+  font-size: 0.9rem;
+  color: #b8b3a4;
+  margin: 0;
+}
+.hero a { color: var(--accent-soft); }
+
+/* Sections */
+main section {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+main section:last-child { border-bottom: none; }
+
+h2 {
+  font-size: 1.9rem;
+  margin: 0 0 1rem;
+  color: var(--ink);
+}
+h3 {
+  font-size: 1.35rem;
+  margin: 2rem 0 0.5rem;
+}
+h3 small {
+  font-size: 0.75em;
+  color: var(--muted);
+  font-weight: normal;
+}
+.lede {
+  font-size: 1.15rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0 0 1.5rem;
+}
+p { margin: 0 0 1rem; }
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+a:hover { border-bottom-color: var(--accent); }
+
+/* Case studies */
+.case-study {
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+.case-study .authority {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+.case-blurb {
+  font-size: 0.98rem;
+  color: var(--ink);
+  margin: 0 0 1rem;
+}
+.method-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.5rem 0 1rem;
+  line-height: 1.5;
+}
+.case-study code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.85em;
+  background: var(--accent-soft);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.case-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+@media (max-width: 720px) {
+  .case-grid { grid-template-columns: 1fr; }
+}
+.case-timeline {
+  font-size: 0.95rem;
+}
+.case-timeline ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 3px solid var(--accent);
+}
+.case-timeline li {
+  padding: 0.5rem 0 0.5rem 1rem;
+  position: relative;
+}
+.case-timeline li::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 1rem;
+  width: 11px;
+  height: 11px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.case-timeline .year {
+  font-weight: bold;
+  color: var(--accent);
+}
+.case-timeline .role {
+  display: block;
+  color: var(--muted);
+  font-size: 0.85em;
+}
+.case-map {
+  height: 280px;
+  background: #f1ede0;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+}
+.case-snippets {
+  margin-top: 1rem;
+  border-top: 1px dashed var(--rule);
+  padding-top: 1rem;
+}
+.case-snippets h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+.snippet {
+  font-size: 0.95rem;
+  background: #faf7ec;
+  border-left: 3px solid var(--rule);
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+.snippet .source {
+  display: block;
+  font-style: normal;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+/* TF-IDF charts */
+.tfidf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+@media (max-width: 720px) {
+  .tfidf-grid { grid-template-columns: 1fr; }
+}
+.tfidf-region {
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1rem;
+}
+.tfidf-region h4 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid;
+}
+.tfidf-region.bc h4 { border-color: var(--bc); color: var(--bc); }
+.tfidf-region.prairies h4 { border-color: var(--prairies); color: var(--prairies); }
+.tfidf-region.quebec h4 { border-color: var(--quebec); color: var(--quebec); }
+.tfidf-bar {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  font-size: 0.85rem;
+}
+.tfidf-bar .term {
+  flex: 0 0 38%;
+  font-family: Georgia, serif;
+}
+.tfidf-bar .bar {
+  flex: 1;
+  height: 14px;
+  background: var(--rule);
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.tfidf-bar .fill { height: 100%; }
+.tfidf-region.bc .fill { background: var(--bc); }
+.tfidf-region.prairies .fill { background: var(--prairies); }
+.tfidf-region.quebec .fill { background: var(--quebec); }
+.tfidf-region .meta {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+}
+
+.callout {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.25rem;
+  font-size: 0.95rem;
+}
+
+.placeholder {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Try it yourself */
+#yasgui {
+  margin: 1.5rem 0;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+
+/* Appendix */
+pre {
+  background: #1a1a1a;
+  color: #ece7d8;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+code { font-family: "SF Mono", Menlo, Consolas, monospace; }
+ol li { margin: 0.4rem 0; }
+
+footer {
+  padding: 2rem 1.5rem 3rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}

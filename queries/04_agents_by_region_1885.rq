@@ -1,0 +1,28 @@
+#+ summary: Every Indian Affairs agent active somewhere in 1885, grouped by place
+#+ endpoint: https://fuseki.lincsproject.ca/lincs/sparql
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX event: <http://id.lincsproject.ca/event/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?place (COUNT(DISTINCT ?agent) AS ?n_agents)
+       (GROUP_CONCAT(DISTINCT ?agentName; separator=", ") AS ?agents)
+WHERE {
+  GRAPH <http://graph.lincsproject.ca/hist-canada/ind-affairs> {
+    ?occ a crm:E7_Activity ;
+         crm:P14_carried_out_by ?agent ;
+         crm:P2_has_type event:OccupationEvent ;
+         crm:P7_took_place_at ?placeNode ;
+         crm:P4_has_time-span ?ts .
+    ?agent rdfs:label ?agentName .
+    ?placeNode rdfs:label ?place .
+    FILTER(!CONTAINS(?place, ","))
+    ?ts crm:P82a_begin_of_the_begin ?begin .
+    OPTIONAL { ?ts crm:P82b_end_of_the_end ?end . }
+    FILTER(?begin <= "1885-12-31T23:59:59"^^xsd:dateTime
+           && (!BOUND(?end) || ?end >= "1885-01-01T00:00:00"^^xsd:dateTime))
+  }
+}
+GROUP BY ?place
+ORDER BY DESC(?n_agents) ?place

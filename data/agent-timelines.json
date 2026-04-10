@@ -1,0 +1,235 @@
+{
+  "dewdney": {
+    "name": "Edgar Dewdney",
+    "lincs_uri": "http://viaf.org/viaf/20583753",
+    "blurb": "Indian Commissioner of the North-West Territories (1879–1888) and Lieutenant-Governor of the NWT (1881–1888). A central figure in Canadian Indigenous policy during the crisis years that culminated in the 1885 North-West Resistance.",
+    "timeline": [
+      {
+        "year": 1880,
+        "summary": "3 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 3
+      },
+      {
+        "year": 1881,
+        "summary": "2 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 2
+      },
+      {
+        "year": 1882,
+        "summary": "7 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 7
+      },
+      {
+        "year": 1883,
+        "summary": "2 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 2
+      },
+      {
+        "year": 1884,
+        "summary": "3 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 3
+      },
+      {
+        "year": 1885,
+        "summary": "3 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 3
+      }
+    ],
+    "snippets": [
+      {
+        "text": "…r in its proper place) R.H. Matthews, Agent No Report NORTH-WEST SUPERINTENDENCY. E. Dewdney, Indian Commissioner Nor. Thor. Macleod, Agent, Part of Treaty No. 7. W.L. Orde, Agent, P…",
+        "source": "DIA Annual Report 1880 · Superintendent-General"
+      },
+      {
+        "text": "…cres upon the Blackfoot reservation during the summer of 1881.| |...|87|...|...|...| _E. DEWDNEY,_ _Indian Commissioner._ I append a statement showing the whereabouts of our Indians in…",
+        "source": "DIA Annual Report 1881 · 1881_lennox_island"
+      },
+      {
+        "text": "…James F. Graham, the various Indian Agents and the Inspectors of Agencies and Farms. E. Dewdney, Indian Commissioner for Manitoba and the North-West Territories James F. Graham, Indian…",
+        "source": "DIA Annual Report 1882 · Superintendent-General"
+      }
+    ],
+    "places": [
+      {
+        "uri": "https://sws.geonames.org/6119109/",
+        "name": "Regina",
+        "lat": 50.45008,
+        "lon": -104.6178,
+        "years": "1884–1885"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q2007",
+        "name": "Northwest Territories",
+        "lat": 66.0,
+        "lon": -119.0,
+        "years": "1880–1885"
+      }
+    ],
+    "n_mentions_total": 20
+  },
+  "powell": {
+    "name": "Israel Wood Powell",
+    "lincs_uri": "http://id.lincsproject.ca/4wjfC8s424E",
+    "blurb": "Superintendent of Indian Affairs for British Columbia (1872–1889). Based in Victoria, Powell administered the province during the treaty-less period of BC Indigenous policy — a striking contrast to the treaty-focused Prairies.",
+    "timeline": [
+      {
+        "year": 1880,
+        "summary": "2 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 2
+      },
+      {
+        "year": 1881,
+        "summary": "6 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 6
+      },
+      {
+        "year": 1882,
+        "summary": "2 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 2
+      },
+      {
+        "year": 1883,
+        "summary": "3 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 3
+      },
+      {
+        "year": 1884,
+        "summary": "2 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 2
+      },
+      {
+        "year": 1885,
+        "summary": "2 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 2
+      }
+    ],
+    "snippets": [
+      {
+        "text": "…Patrick, Report on surveys of Indian Reserves BRITISH COLUMBIA SUPERINTENDENCY. I.W. Powell, Visiting Indian Superintendent TABULAR STATEMENTS. |A 1.|Officers and Employes at…",
+        "source": "DIA Annual Report 1880 · Superintendent-General"
+      },
+      {
+        "text": "…or to be, Sir,_ _Your obedient servant,_ _(Signed) WILLIAM S. JEMMETT,_ _Surveyor._ COL. POWELL, Indian Superintendent, Victoria. RETURN showing the number of Indian Reserves surveye…",
+        "source": "DIA Annual Report 1881 · 1881_section_59"
+      },
+      {
+        "text": "…item under the above head. _I have the honor to be, Sir,_ _Your obedient servant,_ _J.W. POWELL,_ _Indian Superintendent._",
+        "source": "DIA Annual Report 1882 · INDIAN OFFICE"
+      }
+    ],
+    "places": [
+      {
+        "uri": "https://sws.geonames.org/5909050/",
+        "name": "British Columbia",
+        "lat": 53.99983,
+        "lon": -125.0032,
+        "years": "1880–1885"
+      },
+      {
+        "uri": "https://sws.geonames.org/6174041/",
+        "name": "Victoria",
+        "lat": 48.4359,
+        "lon": -123.35155,
+        "years": "1880–1885"
+      }
+    ],
+    "n_mentions_total": 17
+  },
+  "boucher": {
+    "name": "L.F. Boucher",
+    "lincs_uri": "http://id.lincsproject.ca/Flj4VecmJa5",
+    "blurb": "Indian Agent at Betsiamites on the Lower North Shore of the St. Lawrence, serving the Innu of the Côte-Nord. LINCS stores this agent under two separate names — \"L.F. Boucher\" and \"Louis Boucher\" — which this pipeline resolves to a single career.",
+    "timeline": [
+      {
+        "year": 1880,
+        "summary": "2 sections in the Annual Report",
+        "role": "Agent provisionally",
+        "place": "Betsiamites",
+        "n_mentions": 2
+      },
+      {
+        "year": 1881,
+        "summary": "2 sections in the Annual Report",
+        "role": "Agent",
+        "place": "Betsiamites",
+        "n_mentions": 2
+      },
+      {
+        "year": 1882,
+        "summary": "2 sections in the Annual Report",
+        "role": "Agent",
+        "place": "Betsiamites",
+        "n_mentions": 2
+      },
+      {
+        "year": 1883,
+        "summary": "3 sections in the Annual Report",
+        "role": "Agent",
+        "place": "Betsiamites",
+        "n_mentions": 3
+      },
+      {
+        "year": 1884,
+        "summary": "3 sections in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 3
+      },
+      {
+        "year": 1885,
+        "summary": "3 sections in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 3
+      }
+    ],
+    "snippets": [
+      {
+        "text": "…sionary River Desert Agency - Charles Logue, Agent North Shore, River St. Lawrence - L.F. Boucher, Superintendent NOVA SCOTIA AGENCIES District No. 1 - John Harlow, Agent District No…",
+        "source": "DIA Annual Report 1880 · Superintendent-General"
+      },
+      {
+        "text": "…Agency - Rev. G. Giroux, Ptre., Missionary North Shore, River St. Lawrence Agency - L.F. Boucher, Superintendent NOVA SCOTIA. District No. 1 - John Harlow, Agent, No Report Distric…",
+        "source": "DIA Annual Report 1881 · Superintendent-General"
+      },
+      {
+        "text": "…v. G. Giroux. Ptre., Missionary. No report. North Shore, River St. Lawrence Agency - L.F. Boucher, Superintendent NOVA SCOTIA. District No. 1 - John Harlow, Agent. No Report Distric…",
+        "source": "DIA Annual Report 1882 · Superintendent-General"
+      }
+    ],
+    "places": [
+      {
+        "uri": "https://sws.geonames.org/6945992/",
+        "name": "Betsiamites",
+        "lat": 48.94133,
+        "lon": -68.64601,
+        "years": "1880–1885"
+      }
+    ],
+    "n_mentions_total": 15
+  }
+}

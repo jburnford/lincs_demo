@@ -1,0 +1,25 @@
+#+ summary: Edgar Dewdney's full career from LINCS
+#+ endpoint: https://fuseki.lincsproject.ca/lincs/sparql
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX event: <http://id.lincsproject.ca/event/>
+PREFIX viaf: <http://viaf.org/viaf/>
+
+SELECT ?role ?place ?begin ?end WHERE {
+  GRAPH <http://graph.lincsproject.ca/hist-canada/ind-affairs> {
+    ?occ a crm:E7_Activity ;
+         crm:P14_carried_out_by viaf:20583753 ;
+         crm:P2_has_type event:OccupationEvent ;
+         rdfs:label ?role ;
+         crm:P4_has_time-span ?ts .
+    ?ts crm:P82a_begin_of_the_begin ?begin .
+    OPTIONAL { ?ts crm:P82b_end_of_the_end ?end . }
+    OPTIONAL {
+      ?occ crm:P7_took_place_at ?placeNode .
+      ?placeNode rdfs:label ?place .
+      FILTER(!CONTAINS(?place, ","))
+    }
+  }
+}
+ORDER BY ?begin

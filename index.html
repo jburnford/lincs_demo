@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Affairs Annual Reports — A Linked Open Data Demo</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/@triply/yasgui@4.2.28/build/yasgui.min.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <p class="kicker">A proof of concept</p>
+    <h1>Following Indian Agents across the archive</h1>
+    <p class="subtitle">
+      What becomes possible when 20 million pages of historical Canadian
+      government records have clean OCR, named-entity recognition, and
+      linked-open-data grounding.
+    </p>
+    <p class="meta">
+      Corpus: Canada Department of Indian Affairs Annual Reports, 1880–1885 ·
+      Linked to the <a href="https://lincsproject.ca/docs/explore-lod/project-datasets/ind-affairs/">LINCS
+      Historical Indian Affairs Agents</a> graph
+    </p>
+  </div>
+</header>
+
+<main class="container">
+
+<section id="framing">
+  <h2>The problem with keyword search</h2>
+  <p>
+    A historian researching nineteenth-century Indian Affairs in Canada today
+    can search Canadiana.ca for a name — say, <em>Dewdney</em> — and receive a
+    flat list of OCR hits. The historian must then read each result to figure
+    out which Dewdney, in which year, in which place, in which administrative
+    role. The same person appears as <em>E. Dewdney</em>, <em>Hon. Edgar
+    Dewdney</em>, and <em>The Commissioner</em>; the same role is described
+    in dozens of different phrasings; the same place is named under English,
+    French, and Indigenous spellings.
+  </p>
+  <p>
+    Linked Open Data fixes this. Once each person, place, and role mentioned
+    in the reports is grounded to a stable URI in an authority like LINCS,
+    Wikidata, VIAF, or GeoNames, a historian can ask questions that keyword
+    search cannot answer at all.
+  </p>
+  <p>
+    This page demonstrates the payoff using <strong>six volumes of the Annual
+    Reports of the Department of Indian Affairs (1880–1885)</strong>, processed
+    with NER and grounded against the
+    <a href="https://lincsproject.ca/docs/explore-lod/project-datasets/ind-affairs/">LINCS Historical
+    Indian Affairs Agents graph</a>. Of the 355 agents LINCS records as
+    active in this window, <strong>174 (49%)</strong> appear in our reports —
+    a strong basis for cross-reference.
+  </p>
+</section>
+
+<section id="case-studies">
+  <h2>Three agents, six years</h2>
+  <p class="lede">
+    Each case study traces a single Indian Agent across the 1880–1885 reports.
+    The timeline, map, and text snippets are assembled by following one URI
+    per agent through the LINCS graph and our annotation graph.
+  </p>
+
+  <article class="case-study" id="case-dewdney">
+    <h3>Edgar Dewdney <small>· Indian Commissioner of the North-West Territories</small></h3>
+    <p class="authority">
+      LINCS identifier (VIAF):
+      <a href="https://viaf.org/viaf/20583753/"><code>viaf:20583753</code></a>
+    </p>
+    <p class="case-blurb" data-agent="dewdney"></p>
+    <div class="case-grid">
+      <div class="case-timeline" data-agent="dewdney">
+        <p class="placeholder">Timeline loads from <code>data/agent-timelines.json</code></p>
+      </div>
+      <div class="case-map" id="map-dewdney"></div>
+    </div>
+    <div class="case-snippets" data-agent="dewdney"></div>
+  </article>
+
+  <article class="case-study" id="case-powell">
+    <h3>Israel Wood Powell <small>· Indian Superintendent for British Columbia</small></h3>
+    <p class="authority">
+      LINCS identifier:
+      <a href="http://id.lincsproject.ca/4wjfC8s424E"><code>lincs:4wjfC8s424E</code></a>
+    </p>
+    <p class="case-blurb" data-agent="powell"></p>
+    <div class="case-grid">
+      <div class="case-timeline" data-agent="powell"></div>
+      <div class="case-map" id="map-powell"></div>
+    </div>
+    <div class="case-snippets" data-agent="powell"></div>
+  </article>
+
+  <article class="case-study" id="case-boucher">
+    <h3>L.F. Boucher <small>· Indian Agent → Superintendent at Betsiamites, Quebec</small></h3>
+    <p class="authority">
+      LINCS records this career under <strong>two distinct URIs</strong>:
+      <a href="http://id.lincsproject.ca/Flj4VecmJa5"><code>lincs:Flj4VecmJa5</code></a>
+      (L.F. Boucher) and
+      <a href="http://id.lincsproject.ca/Dut48Z2iAM7"><code>lincs:Dut48Z2iAM7</code></a>
+      (Louis Boucher). This pipeline resolves both to a single career arc —
+      a disambiguation question keyword search cannot even pose.
+    </p>
+    <p class="case-blurb" data-agent="boucher"></p>
+    <div class="case-grid">
+      <div class="case-timeline" data-agent="boucher"></div>
+      <div class="case-map" id="map-boucher"></div>
+    </div>
+    <div class="case-snippets" data-agent="boucher"></div>
+  </article>
+</section>
+
+<section id="regional-tfidf">
+  <h2>Regional discourse at scale</h2>
+  <p class="lede">
+    A quantitative payoff that keyword search cannot replicate.
+  </p>
+  <p>
+    We partition the 1880–1885 sections into three regional corpora —
+    <strong>British Columbia</strong>, <strong>Prairies / North-West
+    Territories</strong>, and <strong>Quebec</strong> — based <em>not</em> on
+    where the text says it is, but on the LINCS-grounded place of the agents
+    mentioned in each section. We then run TF-IDF across the three corpora
+    and surface the most distinctive vocabulary in each.
+  </p>
+  <div class="tfidf-grid" id="tfidf-charts">
+    <p class="placeholder">Charts load from <code>data/regional_tfidf.json</code></p>
+  </div>
+  <p class="method-note" id="tfidf-method"></p>
+  <p class="callout">
+    These three corpora were assembled <strong>without reading any text</strong> —
+    purely by following LOD links from agent names to agency places. Keyword-based
+    partitioning could not build these corpora correctly: it would miss
+    paragraphs that name the agent without naming the region, and falsely
+    include paragraphs where the region is mentioned in passing. <strong>The
+    method is corpus-size-invariant</strong>: what you see on 500 sections runs
+    unchanged on 20 million.
+  </p>
+</section>
+
+<section id="try-it">
+  <h2>Try it yourself</h2>
+  <p>
+    The queries below run live against the LINCS SPARQL endpoint at
+    <code>fuseki.lincsproject.ca</code>. Edit any query and re-run it in
+    place.
+  </p>
+  <div id="yasgui"></div>
+</section>
+
+<section id="appendix">
+  <h2>How this was built</h2>
+  <ol>
+    <li><strong>OCR</strong> via OLMoCR on the Plato HPC cluster (A100 GPUs).</li>
+    <li><strong>Section parsing</strong> of the resulting markdown into
+      sub-agency reports, each ~1–3 pages of narrative.</li>
+    <li><strong>NER</strong> with a local 26B-parameter language model
+      (Gemma 4 26B-A4B-it via vLLM), extracting persons, indigenous groups,
+      places, organisations, events, and relationships per section.</li>
+    <li><strong>Grounding</strong> by SPARQL against the LINCS ind-affairs
+      graph, matching person mentions to <code>E21_Person</code> URIs by
+      surname, initial, and year-of-occupation overlap.</li>
+    <li><strong>Turtle generation</strong> following the LINCS application
+      profile: each report section becomes an
+      <code>E73_Information_Object</code> with <code>P67_refers_to</code>
+      pointers to the grounded agent and place URIs.</li>
+    <li><strong>Visualisation</strong> as this static page, which fetches a
+      pre-computed JSON payload for offline reliability and uses YASGUI for
+      live queries against LINCS Fuseki.</li>
+  </ol>
+  <h3>An example fragment of generated Turtle</h3>
+  <pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix viaf: &lt;http://viaf.org/viaf/&gt; .
+@prefix dia:  &lt;http://example.org/dia/&gt; .
+
+dia:section/1882_dewdney_nwt a crm:E73_Information_Object ;
+    rdfs:label "1882 NWT report by Edgar Dewdney"@en ;
+    crm:P129_is_about viaf:20583753 ;
+    crm:P67_refers_to viaf:20583753, geonames:6141242/ ;
+    crm:P190_has_symbolic_content "…the Commissioner visited the Blackfoot…"^^xsd:string .</code></pre>
+</section>
+
+<footer class="container">
+  <p>
+    Built as a proof-of-concept for <a href="https://www.crkn-rcdr.ca/">CRKN</a>
+    by Jim Clifford (University of Saskatchewan), 2026.
+    Source: <a href="https://github.com/jburnford/lincs_demo">github.com/jburnford/lincs_demo</a>.
+  </p>
+</footer>
+
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/@triply/yasgui@4.2.28/build/yasgui.min.js"></script>
+<script src="assets/demo.js"></script>
+</body>
+</html>
