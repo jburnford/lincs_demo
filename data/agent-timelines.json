@@ -68,15 +68,9 @@
         "lat": 50.45008,
         "lon": -104.6178,
         "years": "1884–1885"
-      },
-      {
-        "uri": "http://www.wikidata.org/entity/Q2007",
-        "name": "Northwest Territories",
-        "lat": 66.0,
-        "lon": -119.0,
-        "years": "1880–1885"
       }
     ],
+    "map_note": "Note: for 1880–1883, LINCS records the occupation at territory scale only (no settlement-level coordinates), so no pin is shown for those years.",
     "n_mentions_total": 20
   },
   "powell": {
@@ -143,13 +137,6 @@
     ],
     "places": [
       {
-        "uri": "https://sws.geonames.org/5909050/",
-        "name": "British Columbia",
-        "lat": 53.99983,
-        "lon": -125.0032,
-        "years": "1880–1885"
-      },
-      {
         "uri": "https://sws.geonames.org/6174041/",
         "name": "Victoria",
         "lat": 48.4359,
@@ -157,6 +144,7 @@
         "years": "1880–1885"
       }
     ],
+    "map_note": null,
     "n_mentions_total": 17
   },
   "boucher": {
@@ -230,6 +218,7 @@
         "years": "1880–1885"
       }
     ],
+    "map_note": null,
     "n_mentions_total": 15
   }
 }

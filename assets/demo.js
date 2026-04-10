@@ -33,8 +33,16 @@ function renderSnippets(container, snippets) {
   }
 }
 
-function renderMap(mapId, places) {
-  if (!places || !places.length) return;
+function renderMap(mapId, places, mapNote) {
+  const container = document.getElementById(mapId);
+  if (!container) return;
+  if (!places || !places.length) {
+    // No settlement-level places — show a note instead of empty map
+    if (mapNote) {
+      container.innerHTML = `<p class="placeholder" style="padding:1rem">${mapNote}</p>`;
+    }
+    return;
+  }
   const map = L.map(mapId, { scrollWheelZoom: false });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap',
@@ -52,6 +60,13 @@ function renderMap(mapId, places) {
     map.fitBounds(group.getBounds().pad(0.3));
   } else {
     map.setView([54, -105], 3);
+  }
+  // Show territory-level caveat below the map
+  if (mapNote) {
+    const note = document.createElement('p');
+    note.className = 'map-note';
+    note.textContent = mapNote;
+    container.parentNode.insertBefore(note, container.nextSibling);
   }
 }
 
@@ -139,7 +154,7 @@ async function init() {
       if (tl) renderTimeline(tl, a.timeline || []);
       const sn = document.querySelector(`.case-snippets[data-agent="${agent}"]`);
       if (sn) renderSnippets(sn, a.snippets || []);
-      renderMap(`map-${agent}`, a.places || []);
+      renderMap(`map-${agent}`, a.places || [], a.map_note);
     }
   } catch (e) {
     console.error('Case studies:', e);

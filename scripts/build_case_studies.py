@@ -333,13 +333,34 @@ def main():
                     picked_years.add(year)
                     break
 
-        # Places for the map — only those active in the demo window,
-        # dedupe by coordinate.
+        # Places for the map — only settlement-scale places active in the
+        # demo window. Administrative territory and province labels are
+        # blocklisted because LINCS attaches modern centroids to them,
+        # which is geographically misleading for historical data (e.g.,
+        # the pre-1905 "North-West Territories" covered the southern
+        # prairies, not the modern Arctic centroid LINCS uses).
+        TERRITORY_BLOCKLIST = {
+            'north-west territories',
+            'northwest territories',
+            'territoires du nord-ouest',
+            'manitoba, and keewatin',
+            'north-west territories, manitoba, and keewatin',
+            'british columbia',
+            'manitoba',
+            'ontario',
+            'quebec',
+            'new brunswick',
+            'nova scotia',
+            'prince edward island',
+            'keewatin',
+            'assiniboia',
+        }
+
         places_out = []
+        omitted_territory_years: set[int] = set()
         seen_coords: set[tuple] = set()
         for uri, info in place_info.items():
-            if 'lat' not in info:
-                continue
+            label = info.get('label', '')
             # Years this place was active in our window
             active_years = [
                 y for y in range(args.years[0], args.years[1] + 1)
@@ -351,21 +372,55 @@ def main():
                 )
             ]
             if not active_years:
-                continue  # place not active in our window — skip
+                continue
+
+            # Territory blocklist
+            label_lc = label.lower().strip()
+            if label_lc in TERRITORY_BLOCKLIST:
+                omitted_territory_years.update(active_years)
+                continue
+
+            if 'lat' not in info:
+                continue
             coord = (round(info['lat'], 3), round(info['lon'], 3))
             if coord in seen_coords:
                 continue
             seen_coords.add(coord)
-            year_str = ''
-            if active_years:
-                year_str = f'{active_years[0]}–{active_years[-1]}' if len(active_years) > 1 else str(active_years[0])
+            year_str = f'{active_years[0]}–{active_years[-1]}' if len(active_years) > 1 else str(active_years[0])
             places_out.append({
                 'uri': uri,
-                'name': info['label'],
+                'name': label,
                 'lat': info['lat'],
                 'lon': info['lon'],
                 'years': year_str,
             })
+
+        # Note any years where LINCS only recorded a territory-scale
+        # assignment so the page can surface a caveat next to the map.
+        mapped_years: set[int] = set()
+        for p in places_out:
+            ys = p['years'].split('–')
+            if len(ys) == 1:
+                mapped_years.add(int(ys[0]))
+            else:
+                mapped_years.update(range(int(ys[0]), int(ys[1]) + 1))
+        territory_only = sorted(omitted_territory_years - mapped_years)
+        map_note = None
+        if territory_only:
+            spans = []
+            s = e = territory_only[0]
+            for y in territory_only[1:]:
+                if y == e + 1:
+                    e = y
+                else:
+                    spans.append(f'{s}' if s == e else f'{s}–{e}')
+                    s = e = y
+            spans.append(f'{s}' if s == e else f'{s}–{e}')
+            map_note = (
+                f'Note: for {", ".join(spans)}, LINCS records the '
+                'occupation at territory scale only (no settlement-'
+                'level coordinates), so no pin is shown for those years.'
+            )
 
         payload[key] = {
             'name': cfg['canonical_name'],
@@ -374,6 +429,7 @@ def main():
             'timeline': timeline,
             'snippets': snippets,
             'places': places_out,
+            'map_note': map_note,
             'n_mentions_total': sum(len(ms) for ms in mentions_by_year.values()),
         }
         print(f'  timeline: {len(timeline)} years | snippets: {len(snippets)} | places: {len(places_out)} | total mentions: {payload[key]["n_mentions_total"]}')

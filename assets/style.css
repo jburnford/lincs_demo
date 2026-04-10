@@ -172,6 +172,12 @@ a:hover { border-bottom-color: var(--accent); }
   border: 1px solid var(--rule);
   border-radius: 3px;
 }
+.map-note {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0.4rem 0 0;
+}
 .case-snippets {
   margin-top: 1rem;
   border-top: 1px dashed var(--rule);
