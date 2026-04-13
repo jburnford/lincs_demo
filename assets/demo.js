@@ -70,6 +70,96 @@ function renderMap(mapId, places, mapNote) {
   }
 }
 
+const REGION_COLORS = {
+  bc:       '#2c6e85',
+  prairies: '#b87333',
+  quebec:   '#4a6e3a',
+  other:    '#7a7263',
+};
+
+function renderPlaceMap(payload) {
+  const mapEl = document.getElementById('place-map-full');
+  if (!mapEl || !payload || !payload.places || !payload.places.length) return;
+
+  const map = L.map('place-map-full', { scrollWheelZoom: false })
+               .setView([54, -96], 4);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap',
+    maxZoom: 10,
+  }).addTo(map);
+
+  // Radius scales with mention count (log-ish). Min 4, max 18.
+  const counts = payload.places.map(p => p.total_mentions);
+  const maxCount = Math.max(...counts, 1);
+  const radiusFor = n =>
+    Math.max(4, Math.min(18, 4 + 14 * Math.log10(1 + n) / Math.log10(1 + maxCount)));
+
+  const markers = [];
+  for (const p of payload.places) {
+    const color = REGION_COLORS[p.region] || REGION_COLORS.other;
+    const circle = L.circleMarker([p.lat, p.lon], {
+      radius: radiusFor(p.total_mentions),
+      color: color,
+      weight: 1,
+      fillColor: color,
+      fillOpacity: 0.55,
+    });
+    const yearList = Object.keys(p.by_year).sort();
+    const first = yearList[0];
+    const last = yearList[yearList.length - 1];
+    circle.bindPopup(
+      `<strong>${p.label}</strong><br>` +
+      `${p.total_mentions} mention${p.total_mentions === 1 ? '' : 's'} ` +
+      `in ${p.section_count} section${p.section_count === 1 ? '' : 's'}<br>` +
+      `<small>${first}${first !== last ? '–' + last : ''} · ${p.region}</small><br>` +
+      `<small><a href="${p.uri}" target="_blank">${p.uri}</a></small>`
+    );
+    circle.__place = p;
+    circle.addTo(map);
+    markers.push(circle);
+  }
+
+  // Year slider: filters by cumulative mentions up to the selected year.
+  const slider = document.getElementById('place-year-slider');
+  const label  = document.getElementById('place-year-label');
+  const stats  = document.getElementById('place-map-stats');
+
+  function update(year) {
+    let visible = 0;
+    let totalMentions = 0;
+    for (const m of markers) {
+      const p = m.__place;
+      let cum = 0;
+      for (const [y, c] of Object.entries(p.by_year)) {
+        if (+y <= year) cum += c;
+      }
+      if (cum > 0) {
+        if (!map.hasLayer(m)) m.addTo(map);
+        m.setRadius(radiusFor(cum));
+        visible++;
+        totalMentions += cum;
+      } else if (map.hasLayer(m)) {
+        map.removeLayer(m);
+      }
+    }
+    label.textContent = `cumulative through ${year}`;
+    if (stats) {
+      stats.innerHTML =
+        `<strong>${visible}</strong> distinct places · ` +
+        `<strong>${totalMentions}</strong> grounded mentions · ` +
+        `by region: ` +
+        Object.entries(payload.stats.by_region)
+          .map(([k, v]) => `${v} ${payload.regions[k].split(' /')[0].toLowerCase()}`)
+          .join(', ');
+    }
+  }
+
+  if (slider) {
+    slider.addEventListener('input', () => update(+slider.value));
+  }
+  update(slider ? +slider.value : 1899);
+}
+
 function renderTFIDF(container, data) {
   container.innerHTML = '';
   const regions = [
@@ -167,6 +257,14 @@ async function init() {
     console.error('YASGUI:', e);
   }
 
+  // Place-map panel
+  try {
+    const placeMap = await loadJSON('data/place-map.json');
+    renderPlaceMap(placeMap);
+  } catch (e) {
+    console.error('Place map:', e);
+  }
+
   // Regional TF-IDF
   try {
     const tfidf = await loadJSON('data/regional_tfidf.json');
@@ -176,7 +274,7 @@ async function init() {
     if (methodEl && tfidf.method) {
       const m = tfidf.method;
       methodEl.innerHTML =
-        `<strong>Method:</strong> of ${m.total_sections_considered} sections in 1880–1885, ` +
+        `<strong>Method:</strong> of ${m.total_sections_considered} sections in 1880–1899, ` +
         `${m.dropped_no_grounded_agents} were dropped (no agents matched to LINCS), ` +
         `${m.dropped_outside_three_regions} were dropped (agents serve outside BC / Prairies / Quebec — ` +
         `mostly Ontario and the Maritimes), and ${m.dropped_no_majority_region} were dropped ` +

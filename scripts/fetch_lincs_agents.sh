@@ -28,13 +28,13 @@ WHERE {
     OPTIONAL { ?ts crm:P82b_end_of_the_end ?end . }
     OPTIONAL { ?occ crm:P7_took_place_at ?place . ?place rdfs:label ?placeLabel . }
     OPTIONAL { ?occ crm:P11_had_participant ?agency . ?agency a crm:E74_Group ; rdfs:label ?agencyLabel . }
-    FILTER(?begin <= "1885-12-31T23:59:59"^^xsd:dateTime
+    FILTER(?begin <= "1899-12-31T23:59:59"^^xsd:dateTime
            && (!BOUND(?end) || ?end >= "1880-01-01T00:00:00"^^xsd:dateTime))
   }
 }
 SPARQL
 
-echo "Fetching LINCS agents for 1880-1885…"
+echo "Fetching LINCS agents for 1880-1899…"
 curl -s -X POST https://fuseki.lincsproject.ca/lincs/sparql \
   -H "Content-Type: application/sparql-query" \
   -H "Accept: application/sparql-results+json" \

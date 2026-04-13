@@ -1,0 +1,654 @@
+{
+  "index_stats": {
+    "total_places": 604,
+    "blacklisted_uris": 69,
+    "index_keys": 1045,
+    "collision_keys": 5
+  },
+  "years": [
+    1880,
+    1899
+  ],
+  "total_mentions": 18199,
+  "total_matched": 2968,
+  "match_rate": 0.163,
+  "per_year": {
+    "1880": {
+      "mentions": 665,
+      "matched": 123,
+      "rate": 0.185
+    },
+    "1881": {
+      "mentions": 1429,
+      "matched": 224,
+      "rate": 0.157
+    },
+    "1882": {
+      "mentions": 1519,
+      "matched": 188,
+      "rate": 0.124
+    },
+    "1883": {
+      "mentions": 1026,
+      "matched": 176,
+      "rate": 0.172
+    },
+    "1884": {
+      "mentions": 1051,
+      "matched": 162,
+      "rate": 0.154
+    },
+    "1885": {
+      "mentions": 1083,
+      "matched": 168,
+      "rate": 0.155
+    },
+    "1886": {
+      "mentions": 1559,
+      "matched": 204,
+      "rate": 0.131
+    },
+    "1887": {
+      "mentions": 922,
+      "matched": 144,
+      "rate": 0.156
+    },
+    "1888": {
+      "mentions": 857,
+      "matched": 130,
+      "rate": 0.152
+    },
+    "1889": {
+      "mentions": 761,
+      "matched": 124,
+      "rate": 0.163
+    },
+    "1890": {
+      "mentions": 133,
+      "matched": 27,
+      "rate": 0.203
+    },
+    "1891": {
+      "mentions": 700,
+      "matched": 132,
+      "rate": 0.189
+    },
+    "1892": {
+      "mentions": 736,
+      "matched": 122,
+      "rate": 0.166
+    },
+    "1893": {
+      "mentions": 565,
+      "matched": 120,
+      "rate": 0.212
+    },
+    "1894": {
+      "mentions": 617,
+      "matched": 112,
+      "rate": 0.182
+    },
+    "1895": {
+      "mentions": 649,
+      "matched": 129,
+      "rate": 0.199
+    },
+    "1896": {
+      "mentions": 967,
+      "matched": 163,
+      "rate": 0.169
+    },
+    "1897": {
+      "mentions": 870,
+      "matched": 173,
+      "rate": 0.199
+    },
+    "1898": {
+      "mentions": 954,
+      "matched": 159,
+      "rate": 0.167
+    },
+    "1899": {
+      "mentions": 1136,
+      "matched": 188,
+      "rate": 0.165
+    }
+  },
+  "top_unmatched": [
+    [
+      "Victoria",
+      83
+    ],
+    [
+      "Duck Lake",
+      48
+    ],
+    [
+      "Rat Portage",
+      44
+    ],
+    [
+      "Lake Winnipeg",
+      43
+    ],
+    [
+      "Lac Seul",
+      35
+    ],
+    [
+      "Lake Superior",
+      33
+    ],
+    [
+      "Lake Manitoba",
+      33
+    ],
+    [
+      "Battle River",
+      33
+    ],
+    [
+      "Vancouver Island",
+      33
+    ],
+    [
+      "Red River",
+      33
+    ],
+    [
+      "Touchwood Hills",
+      32
+    ],
+    [
+      "Saskatchewan River",
+      31
+    ],
+    [
+      "Qu'Appelle",
+      31
+    ],
+    [
+      "Assiniboine River",
+      31
+    ],
+    [
+      "Lake Huron",
+      30
+    ],
+    [
+      "File Hills",
+      30
+    ],
+    [
+      "Alert Bay",
+      30
+    ],
+    [
+      "Skeena River",
+      29
+    ],
+    [
+      "Saskatchewan",
+      27
+    ],
+    [
+      "Sturgeon Lake",
+      27
+    ],
+    [
+      "Moose Lake",
+      27
+    ],
+    [
+      "Grand Rapids",
+      26
+    ],
+    [
+      "Bow River",
+      26
+    ],
+    [
+      "Yale",
+      26
+    ],
+    [
+      "Long Lake",
+      25
+    ],
+    [
+      "Riding Mountain",
+      25
+    ],
+    [
+      "Fraser",
+      25
+    ],
+    [
+      "Rainy Lake",
+      24
+    ],
+    [
+      "Fort Pitt",
+      24
+    ],
+    [
+      "Blood Reserve",
+      24
+    ],
+    [
+      "Indian Head",
+      24
+    ],
+    [
+      "Georgian Bay",
+      23
+    ],
+    [
+      "Swan Lake",
+      23
+    ],
+    [
+      "Barclay Sound",
+      23
+    ],
+    [
+      "St. Mary's River",
+      23
+    ],
+    [
+      "Fort Walsh",
+      22
+    ],
+    [
+      "Fort Alexander",
+      22
+    ],
+    [
+      "Blackfoot Crossing",
+      22
+    ],
+    [
+      "Manitoba",
+      22
+    ],
+    [
+      "Lake of the Woods",
+      22
+    ],
+    [
+      "High River",
+      21
+    ],
+    [
+      "Qu'Appelle Valley",
+      21
+    ],
+    [
+      "Kuper Island",
+      21
+    ],
+    [
+      "Fisher River",
+      20
+    ],
+    [
+      "St. Peter's",
+      20
+    ],
+    [
+      "Carlton",
+      20
+    ],
+    [
+      "Moose Mountain",
+      20
+    ],
+    [
+      "Alberni",
+      20
+    ],
+    [
+      "Lake St. Martin",
+      19
+    ],
+    [
+      "Eagle Lake",
+      19
+    ]
+  ],
+  "collisions_dropped": 5,
+  "collisions_sample": {
+    "victoria county": [
+      "https://sws.geonames.org/6174034/",
+      "https://sws.geonames.org/8593710/"
+    ],
+    "saint peters": [
+      "https://sws.geonames.org/6157827/",
+      "https://sws.geonames.org/6157828/"
+    ],
+    "quebec": [
+      "https://sws.geonames.org/6115047/",
+      "https://sws.geonames.org/6325494/"
+    ],
+    "ontario": [
+      "https://sws.geonames.org/6093943/",
+      "https://sws.geonames.org/6093943l/"
+    ],
+    "maniwaki": [
+      "https://sws.geonames.org/6065262/",
+      "https://sws.geonames.org/6065263/"
+    ]
+  },
+  "blacklisted_uris": 69,
+  "blacklist_sample": {
+    "http://id.lincsproject.ca/R0bTq4JxBMY": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "http://id.lincsproject.ca/DSQN007Z8sV": [
+      "keewatin",
+      "northwest territories"
+    ],
+    "http://id.lincsproject.ca/rxJ5XzWsADA": [
+      "keewatin",
+      "manitoba"
+    ],
+    "https://sws.geonames.org/5944744/": [
+      "keewatin",
+      "manitoba"
+    ],
+    "https://sws.geonames.org/6070692/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "https://sws.geonames.org/5955948/": [
+      "alberta",
+      "saskatchewan"
+    ],
+    "https://sws.geonames.org/5943309/": [
+      "alberta",
+      "keewatin",
+      "manitoba",
+      "saskatchewan"
+    ],
+    "https://sws.geonames.org/6078652/": [
+      "alberta",
+      "keewatin",
+      "manitoba"
+    ],
+    "https://sws.geonames.org/6100058/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "https://sws.geonames.org/6157104/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "https://sws.geonames.org/6096240/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "https://sws.geonames.org/12156846/": [
+      "ontario",
+      "quebec"
+    ],
+    "https://sws.geonames.org/5964664/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "http://id.lincsproject.ca/Tzmz2jRFxrZ": [
+      "keewatin",
+      "manitoba"
+    ],
+    "https://sws.geonames.org/6164384/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "https://sws.geonames.org/6173210/": [
+      "alberta",
+      "keewatin",
+      "manitoba",
+      "saskatchewan"
+    ],
+    "https://sws.geonames.org/5994461/": [
+      "alberta",
+      "keewatin",
+      "manitoba",
+      "saskatchewan"
+    ],
+    "https://sws.geonames.org/6168002/": [
+      "keewatin",
+      "manitoba"
+    ],
+    "https://sws.geonames.org/5928302/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ],
+    "https://sws.geonames.org/6078253/": [
+      "keewatin",
+      "manitoba",
+      "northwest territories"
+    ]
+  },
+  "matched_samples": [
+    {
+      "year": 1880,
+      "ner_name": "Manitoulin Island",
+      "ner_location": "Lake Huron",
+      "lincs_uri": "https://sws.geonames.org/6065218/",
+      "lincs_label": "Manitoulin Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Walpole Island",
+      "ner_location": "River St. Clair",
+      "lincs_uri": "https://sws.geonames.org/6175607/",
+      "lincs_label": "Walpole Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Snake Island",
+      "ner_location": "Lake Huron",
+      "lincs_uri": "https://sws.geonames.org/6150448/",
+      "lincs_label": "Snake Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Highgate",
+      "ner_location": "County of Kent",
+      "lincs_uri": "https://sws.geonames.org/5974871/",
+      "lincs_label": "Highgate, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Burnt Church",
+      "ner_location": "County of Northumberland",
+      "lincs_uri": "https://sws.geonames.org/12096534/",
+      "lincs_label": "Burnt Church, New Brunswick"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Eel Ground",
+      "ner_location": "County of Northumberland",
+      "lincs_uri": "https://sws.geonames.org/5946961/",
+      "lincs_label": "Eel Ground, New Brunswick"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Lennox Island",
+      "ner_location": "Prince Edward Island",
+      "lincs_uri": "https://sws.geonames.org/6052314/",
+      "lincs_label": "LennoxIsland Prince Edward Island"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Brantford",
+      "ner_location": "County of Brant",
+      "lincs_uri": "https://sws.geonames.org/5907990/",
+      "lincs_label": "Brantford, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Sault Ste. Marie",
+      "ner_location": "District of Algoma",
+      "lincs_uri": "https://sws.geonames.org/6141439/",
+      "lincs_label": "Sault Ste Marie, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "North-West Territories",
+      "ner_location": null,
+      "lincs_uri": "http://www.wikidata.org/entity/Q2007",
+      "lincs_label": "Territoires du Nord-Ouest"
+    },
+    {
+      "year": 1880,
+      "ner_name": "British Columbia",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5909050/",
+      "lincs_label": "British Columbia"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Brantford",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5907990/",
+      "lincs_label": "Brantford, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Sarnia",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6141190/",
+      "lincs_label": "Sarnia, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Walpole Island",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6175607/",
+      "lincs_label": "Walpole Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Strathroy",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6158027/",
+      "lincs_label": "Strathroy, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "HIGHGATE",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5974871/",
+      "lincs_label": "Highgate, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Rice Lake",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6121848/",
+      "lincs_label": "Rice Lake, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Christian Island",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5921795/",
+      "lincs_label": "Christian Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Manitoulin Island",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6065218/",
+      "lincs_label": "Manitoulin Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Snake Island",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6150448/",
+      "lincs_label": "Snake Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Manitowaning",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6065256/",
+      "lincs_label": "Manitowaning, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Cockburn Island",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5924681/",
+      "lincs_label": "Cockburn Island, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Parry Sound",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6098747/",
+      "lincs_label": "Perry Sound, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Sault Ste. Marie",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6141439/",
+      "lincs_label": "Sault Ste Marie, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "SAULT STE. MARIE",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6141439/",
+      "lincs_label": "Sault Ste Marie, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "EGANVILLE",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5947035/",
+      "lincs_label": "Eganville, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "OKA",
+      "ner_location": "LAKE OF TWO MOUNTAINS AGENCY",
+      "lincs_uri": "https://sws.geonames.org/6092873/",
+      "lincs_label": "Oka, Quebec"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Montreal",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6077243/",
+      "lincs_label": "Montreal, Quebec"
+    },
+    {
+      "year": 1880,
+      "ner_name": "Toronto",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/6167865/",
+      "lincs_label": "Toronto, Ontario"
+    },
+    {
+      "year": 1880,
+      "ner_name": "DUNDEE",
+      "ner_location": null,
+      "lincs_uri": "https://sws.geonames.org/5943997/",
+      "lincs_label": "Dundee, Quebec"
+    }
+  ],
+  "sections_with_places": 1367
+}

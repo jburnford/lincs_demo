@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Generate CIDOC-CRM Turtle linking 1880-1885 Indian Affairs report sections
-to grounded LINCS / GeoNames URIs.
+Generate CIDOC-CRM Turtle linking 1880-1899 Indian Affairs report sections
+to grounded LINCS agent URIs. Place grounding is emitted to a separate
+TTL by scripts/match_places.py.
 
 Each section becomes an E73_Information_Object with:
   - rdfs:label
@@ -16,13 +17,11 @@ Each grounded place generates a stub E53_Place with owl:sameAs to GeoNames.
 Person matching: surname + first initial + year-of-occupation overlap
 against the LINCS Historical Indian Affairs Agents graph.
 
-Place matching: case-insensitive substring on the LINCS-known place labels.
-
 Usage:
     python3 scripts/generate_ttl.py \
         --entities ~/plato/dia_data/entities_raw \
         --lincs data/lincs_agents_raw.json \
-        --out data/dia-mentions-1880-1885.ttl
+        --out data/dia-mentions-1880-1899.ttl
 """
 
 import argparse
@@ -245,7 +244,7 @@ def main():
                     help='LINCS agents JSON dump (SPARQL results)')
     ap.add_argument('--out', type=Path, required=True,
                     help='Output Turtle file')
-    ap.add_argument('--years', type=int, nargs=2, default=[1880, 1885])
+    ap.add_argument('--years', type=int, nargs=2, default=[1880, 1899])
     args = ap.parse_args()
 
     print(f'Loading LINCS agents from {args.lincs}…')
@@ -294,22 +293,9 @@ def main():
                         # Prefer the LINCS canonical name
                         grounded_persons[uri] = sorted(idx.by_uri[uri]['names'])[0]
 
+            # Place grounding is handled separately by match_places.py →
+            # dia-places-1880-1899.ttl (strict NER matching, no substring).
             place_uris: list[str] = []
-            for pl in section.get('places_orgs') or []:
-                if pl.get('category') and pl['category'] != 'PLACE':
-                    # Skip orgs for now — handled via agency relations later
-                    pass
-                nm = pl.get('name')
-                if not nm:
-                    continue
-                n_places_seen += 1
-                hit = idx.match_place(nm)
-                if hit:
-                    uri, lbl = hit
-                    n_places_grounded += 1
-                    place_uris.append(uri)
-                    if uri not in grounded_places:
-                        grounded_places[uri] = lbl
 
             body_chunks.append(emit_section(section, person_uris, place_uris))
             body_chunks.append('\n')

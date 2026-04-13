@@ -183,7 +183,7 @@ def main():
                     default=Path('data/lincs_agents_raw.json'))
     ap.add_argument('--out', type=Path,
                     default=Path('data/agent-timelines.json'))
-    ap.add_argument('--years', type=int, nargs=2, default=[1880, 1885])
+    ap.add_argument('--years', type=int, nargs=2, default=[1880, 1899])
     args = ap.parse_args()
 
     idx = LincsAgentIndex(args.lincs)

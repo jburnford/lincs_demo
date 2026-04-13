@@ -155,7 +155,7 @@ def main():
                     default=Path('data/lincs_agents_raw.json'))
     ap.add_argument('--out', type=Path,
                     default=Path('data/regional_tfidf.json'))
-    ap.add_argument('--years', type=int, nargs=2, default=[1880, 1885])
+    ap.add_argument('--years', type=int, nargs=2, default=[1880, 1899])
     ap.add_argument('--top-n', type=int, default=20)
     args = ap.parse_args()
 

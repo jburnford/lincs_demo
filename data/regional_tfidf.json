@@ -2,269 +2,269 @@
   "bc": {
     "top_terms": [
       {
-        "term": "natives",
-        "score": 1.5305
+        "term": "columbia",
+        "score": 0.4953
       },
       {
-        "term": "chinamen",
-        "score": 0.5935
+        "term": "appropriation",
+        "score": 0.4658
       },
       {
-        "term": "commissioner",
-        "score": 0.5418
+        "term": "voted",
+        "score": 0.451
       },
       {
-        "term": "cowichan",
-        "score": 0.4842
-      },
-      {
-        "term": "okanagan",
-        "score": 0.4611
-      },
-      {
-        "term": "inlet",
-        "score": 0.4381
-      },
-      {
-        "term": "algoma",
-        "score": 0.4381
+        "term": "cts",
+        "score": 0.4489
       },
       {
         "term": "kamloops",
-        "score": 0.4265
+        "score": 0.4131
       },
       {
-        "term": "columbia",
-        "score": 0.415
-      },
-      {
-        "term": "metlakahtla",
-        "score": 0.3689
-      },
-      {
-        "term": "nicola",
-        "score": 0.3574
-      },
-      {
-        "term": "chains",
-        "score": 0.3574
+        "term": "headman",
+        "score": 0.4068
       },
       {
         "term": "thence",
-        "score": 0.3574
+        "score": 0.3225
       },
       {
-        "term": "chinaman",
-        "score": 0.3436
+        "term": "cowichan",
+        "score": 0.3077
       },
       {
-        "term": "fort",
-        "score": 0.3343
+        "term": "begg",
+        "score": 0.3056
       },
       {
-        "term": "bootanie",
-        "score": 0.3124
+        "term": "inlet",
+        "score": 0.2972
       },
       {
-        "term": "kyukaht",
-        "score": 0.3124
+        "term": "personal",
+        "score": 0.2887
       },
       {
-        "term": "allotted",
-        "score": 0.3113
+        "term": "touchwood",
+        "score": 0.2656
       },
       {
-        "term": "villages",
-        "score": 0.3113
+        "term": "canneries",
+        "score": 0.2613
       },
       {
-        "term": "north-west",
-        "score": 0.2882
+        "term": "lev",
+        "score": 0.2613
+      },
+      {
+        "term": "commissioner",
+        "score": 0.2592
+      },
+      {
+        "term": "okanagan",
+        "score": 0.2529
+      },
+      {
+        "term": "natives",
+        "score": 0.2445
+      },
+      {
+        "term": "receipts",
+        "score": 0.236
+      },
+      {
+        "term": "boarding",
+        "score": 0.2255
+      },
+      {
+        "term": "irrigation",
+        "score": 0.2213
       }
     ],
-    "n_sections": 36,
-    "n_agents": 10,
-    "n_tokens": 35172
+    "n_sections": 228,
+    "n_agents": 43,
+    "n_tokens": 192387
   },
   "prairies": {
     "top_terms": [
       {
-        "term": "col",
-        "score": 1.4478
+        "term": "mos",
+        "score": 0.4287
       },
       {
         "term": "battleford",
-        "score": 1.0766
-      },
-      {
-        "term": "pas",
-        "score": 1.0537
-      },
-      {
-        "term": "fort",
-        "score": 1.0124
-      },
-      {
-        "term": "blackfoot",
-        "score": 0.9334
-      },
-      {
-        "term": "cree",
-        "score": 0.9048
-      },
-      {
-        "term": "instructor",
-        "score": 0.8243
-      },
-      {
-        "term": "payments",
-        "score": 0.7609
-      },
-      {
-        "term": "hills",
-        "score": 0.7418
-      },
-      {
-        "term": "blackfeet",
-        "score": 0.6299
-      },
-      {
-        "term": "pitt",
-        "score": 0.5784
-      },
-      {
-        "term": "storehouse",
-        "score": 0.5727
-      },
-      {
-        "term": "heads",
-        "score": 0.5268
+        "score": 0.3356
       },
       {
         "term": "page",
-        "score": 0.4868
+        "score": 0.3035
       },
       {
-        "term": "north-west",
-        "score": 0.4861
+        "term": "boarding",
+        "score": 0.3004
       },
       {
-        "term": "territories",
-        "score": 0.4586
+        "term": "corral",
+        "score": 0.2858
       },
       {
-        "term": "bloods",
-        "score": 0.4581
+        "term": "blackfoot",
+        "score": 0.2787
       },
       {
-        "term": "crees",
-        "score": 0.4409
+        "term": "audited",
+        "score": 0.2662
       },
       {
-        "term": "sarcee",
-        "score": 0.4409
+        "term": "commissioner",
+        "score": 0.258
       },
       {
-        "term": "manitoba",
-        "score": 0.4375
+        "term": "warehouse",
+        "score": 0.2564
+      },
+      {
+        "term": "cts",
+        "score": 0.2477
+      },
+      {
+        "term": "pas",
+        "score": 0.244
+      },
+      {
+        "term": "duck",
+        "score": 0.2285
+      },
+      {
+        "term": "saskatchewan",
+        "score": 0.2187
+      },
+      {
+        "term": "yds",
+        "score": 0.2073
+      },
+      {
+        "term": "stack",
+        "score": 0.1989
+      },
+      {
+        "term": "cree",
+        "score": 0.1939
+      },
+      {
+        "term": "touchwood",
+        "score": 0.1923
+      },
+      {
+        "term": "assiniboine",
+        "score": 0.1867
+      },
+      {
+        "term": "offal",
+        "score": 0.1863
+      },
+      {
+        "term": "cumberland",
+        "score": 0.1722
       }
     ],
-    "n_sections": 129,
-    "n_agents": 67,
-    "n_tokens": 191843
+    "n_sections": 596,
+    "n_agents": 247,
+    "n_tokens": 784208
   },
   "quebec": {
     "top_terms": [
       {
-        "term": "cod",
-        "score": 1.4711
-      },
-      {
-        "term": "delormier",
-        "score": 0.7921
-      },
-      {
-        "term": "bethsiamits",
-        "score": 0.679
-      },
-      {
-        "term": "grande",
-        "score": 0.5658
-      },
-      {
         "term": "notre",
-        "score": 0.5658
+        "score": 0.3585
       },
       {
         "term": "dame",
-        "score": 0.5658
+        "score": 0.3585
+      },
+      {
+        "term": "delormier",
+        "score": 0.3346
       },
       {
         "term": "walbank",
-        "score": 0.5658
+        "score": 0.3107
       },
       {
-        "term": "laronde",
-        "score": 0.5092
+        "term": "snow-shoes",
+        "score": 0.3107
       },
       {
-        "term": "tadousac",
-        "score": 0.4526
+        "term": "bethsiamits",
+        "score": 0.2868
       },
       {
-        "term": "canadians",
-        "score": 0.4526
+        "term": "jocks",
+        "score": 0.2629
       },
       {
-        "term": "phillips",
-        "score": 0.4526
-      },
-      {
-        "term": "montour",
-        "score": 0.4526
-      },
-      {
-        "term": "abenakis",
-        "score": 0.4176
+        "term": "grande",
+        "score": 0.239
       },
       {
         "term": "moisie",
-        "score": 0.4176
+        "score": 0.2382
       },
       {
-        "term": "contagious",
-        "score": 0.3961
+        "term": "lacrosses",
+        "score": 0.2151
       },
       {
-        "term": "merchants",
-        "score": 0.3759
+        "term": "mistress",
+        "score": 0.1912
       },
       {
-        "term": "maniwaki",
-        "score": 0.3341
+        "term": "montour",
+        "score": 0.1912
       },
       {
-        "term": "language",
-        "score": 0.3132
-      },
-      {
-        "term": "aylmer",
-        "score": 0.2829
+        "term": "natashquan",
+        "score": 0.1764
       },
       {
         "term": "mclea",
-        "score": 0.2829
+        "score": 0.1673
+      },
+      {
+        "term": "arnaud",
+        "score": 0.1673
+      },
+      {
+        "term": "masknaro",
+        "score": 0.1673
+      },
+      {
+        "term": "bitobee",
+        "score": 0.1434
+      },
+      {
+        "term": "otis",
+        "score": 0.1411
+      },
+      {
+        "term": "lebel",
+        "score": 0.1323
+      },
+      {
+        "term": "shantying",
+        "score": 0.1195
       }
     ],
-    "n_sections": 54,
-    "n_agents": 17,
-    "n_tokens": 19417
+    "n_sections": 175,
+    "n_agents": 39,
+    "n_tokens": 45968
   },
   "method": {
-    "total_sections_considered": 507,
-    "dropped_no_grounded_agents": 102,
-    "dropped_outside_three_regions": 181,
-    "dropped_no_majority_region": 2,
+    "total_sections_considered": 2123,
+    "dropped_no_grounded_agents": 434,
+    "dropped_outside_three_regions": 651,
+    "dropped_no_majority_region": 28,
     "min_term_frequency": 5,
     "note": "TF-IDF computed across three region-level \"documents\". Each section was assigned to a region by majority vote of its grounded LINCS Indian Affairs Agents, never by string matching on the section text."
   }

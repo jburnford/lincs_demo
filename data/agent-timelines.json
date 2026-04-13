@@ -45,6 +45,27 @@
         "role": "Indian Commissioner",
         "place": "North-West Territories",
         "n_mentions": 3
+      },
+      {
+        "year": 1886,
+        "summary": "5 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 5
+      },
+      {
+        "year": 1889,
+        "summary": "2 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 2
+      },
+      {
+        "year": 1892,
+        "summary": "2 sections in the Annual Report",
+        "role": "Indian Commissioner",
+        "place": "North-West Territories",
+        "n_mentions": 2
       }
     ],
     "snippets": [
@@ -67,11 +88,18 @@
         "name": "Regina",
         "lat": 50.45008,
         "lon": -104.6178,
-        "years": "1884–1885"
+        "years": "1884–1899"
+      },
+      {
+        "uri": "https://sws.geonames.org/6094817/",
+        "name": "Ottawa",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "years": "1889–1899"
       }
     ],
     "map_note": "Note: for 1880–1883, LINCS records the occupation at territory scale only (no settlement-level coordinates), so no pin is shown for those years.",
-    "n_mentions_total": 20
+    "n_mentions_total": 29
   },
   "powell": {
     "name": "Israel Wood Powell",
@@ -119,6 +147,20 @@
         "role": "Visiting Superintendent",
         "place": "British Columbia",
         "n_mentions": 2
+      },
+      {
+        "year": 1886,
+        "summary": "3 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 3
+      },
+      {
+        "year": 1887,
+        "summary": "3 sections in the Annual Report",
+        "role": "Visiting Superintendent",
+        "place": "British Columbia",
+        "n_mentions": 3
       }
     ],
     "snippets": [
@@ -141,11 +183,11 @@
         "name": "Victoria",
         "lat": 48.4359,
         "lon": -123.35155,
-        "years": "1880–1885"
+        "years": "1880–1899"
       }
     ],
     "map_note": null,
-    "n_mentions_total": 17
+    "n_mentions_total": 23
   },
   "boucher": {
     "name": "L.F. Boucher",
@@ -193,6 +235,41 @@
         "role": "Superintendent",
         "place": "Betsiamites",
         "n_mentions": 3
+      },
+      {
+        "year": 1886,
+        "summary": "2 sections in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 2
+      },
+      {
+        "year": 1887,
+        "summary": "1 section in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 1
+      },
+      {
+        "year": 1888,
+        "summary": "1 section in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 1
+      },
+      {
+        "year": 1889,
+        "summary": "1 section in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 1
+      },
+      {
+        "year": 1891,
+        "summary": "1 section in the Annual Report",
+        "role": "Superintendent",
+        "place": "Betsiamites",
+        "n_mentions": 1
       }
     ],
     "snippets": [
@@ -211,14 +288,21 @@
     ],
     "places": [
       {
+        "uri": "https://sws.geonames.org/5988641/",
+        "name": "Kahnawake",
+        "lat": 45.41098,
+        "lon": -73.68144,
+        "years": "1886–1899"
+      },
+      {
         "uri": "https://sws.geonames.org/6945992/",
         "name": "Betsiamites",
         "lat": 48.94133,
         "lon": -68.64601,
-        "years": "1880–1885"
+        "years": "1880–1899"
       }
     ],
     "map_note": null,
-    "n_mentions_total": 15
+    "n_mentions_total": 21
   }
 }

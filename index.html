@@ -21,7 +21,7 @@
       linked-open-data grounding.
     </p>
     <p class="meta">
-      Corpus: Canada Department of Indian Affairs Annual Reports, 1880–1885 ·
+      Corpus: Canada Department of Indian Affairs Annual Reports, 1880–1899 ·
       Linked to the <a href="https://lincsproject.ca/docs/explore-lod/project-datasets/ind-affairs/">LINCS
       Historical Indian Affairs Agents</a> graph
     </p>
@@ -49,20 +49,23 @@
     search cannot answer at all.
   </p>
   <p>
-    This page demonstrates the payoff using <strong>six volumes of the Annual
-    Reports of the Department of Indian Affairs (1880–1885)</strong>, processed
+    This page demonstrates the payoff using <strong>twenty volumes of the Annual
+    Reports of the Department of Indian Affairs (1880–1899)</strong>, processed
     with NER and grounded against the
     <a href="https://lincsproject.ca/docs/explore-lod/project-datasets/ind-affairs/">LINCS Historical
-    Indian Affairs Agents graph</a>. Of the 355 agents LINCS records as
-    active in this window, <strong>174 (49%)</strong> appear in our reports —
-    a strong basis for cross-reference.
+    Indian Affairs Agents graph</a>. Of the 1,096 agents LINCS records as
+    active in this window, <strong>524 (48%)</strong> appear in our reports —
+    3,443 grounded mentions across 2,123 report sections. A further
+    <strong>2,965 place mentions</strong> are grounded to LINCS/GeoNames
+    place URIs through a strict normalised-label matcher that produces
+    zero false positives.
   </p>
 </section>
 
 <section id="case-studies">
-  <h2>Three agents, six years</h2>
+  <h2>Three agents, twenty years</h2>
   <p class="lede">
-    Each case study traces a single Indian Agent across the 1880–1885 reports.
+    Each case study traces a single Indian Agent across the 1880–1899 reports.
     The timeline, map, and text snippets are assembled by following one URI
     per agent through the LINCS graph and our annotation graph.
   </p>
@@ -116,13 +119,55 @@
   </article>
 </section>
 
+<section id="place-map">
+  <h2>Where the reports talk about</h2>
+  <p class="lede">
+    Every point is a LINCS-grounded place mentioned in the 1880–1899
+    reports, plotted from its GeoNames coordinate.
+  </p>
+  <p>
+    The NER pipeline extracted 18,199 place mentions from the twenty
+    volumes. Of those, <strong>2,965 (16%)</strong> matched a place URI
+    in the LINCS Indian Affairs graph under a strict normalised-label
+    rule — no fuzzy matching, no substring fallback, no nearest-neighbour.
+    The remaining 84% is not noise: it is the gap between "places LINCS
+    Indian Affairs currently knows about" and "places the reports
+    actually discuss." That gap is itself a finding.
+  </p>
+  <div id="place-map-full"></div>
+  <div class="place-map-controls">
+    <label>
+      Year: <input type="range" id="place-year-slider" min="1880" max="1899" value="1899">
+      <span id="place-year-label">cumulative through 1899</span>
+    </label>
+    <span class="region-legend">
+      <span><span class="swatch bc"></span>British Columbia</span>
+      <span><span class="swatch prairies"></span>Prairies / NWT</span>
+      <span><span class="swatch quebec"></span>Quebec</span>
+      <span><span class="swatch other"></span>Ontario / Maritimes / other</span>
+    </span>
+  </div>
+  <p class="place-map-stats" id="place-map-stats"></p>
+  <p>
+    The matcher blacklists 69 LINCS place URIs (11%) whose labels span
+    multiple provinces — historical artefacts of the 1880s "Manitoba
+    and Keewatin" bulk-jurisdiction labels, plus two genuine LINCS data
+    bugs: a single URI conflating Victoria BC with Victoria NWT, and a
+    Manimaki/Maniwaki typo-duplicate. It also drops four "collision"
+    keys where a normalised label maps to more than one URI
+    (<em>Ontario</em>, <em>Quebec</em>, <em>Victoria County</em>,
+    <em>Maniwaki</em>). Producing zero false positives in a public
+    demo is more valuable than recall.
+  </p>
+</section>
+
 <section id="regional-tfidf">
   <h2>Regional discourse at scale</h2>
   <p class="lede">
     A quantitative payoff that keyword search cannot replicate.
   </p>
   <p>
-    We partition the 1880–1885 sections into three regional corpora —
+    We partition the 1880–1899 sections into three regional corpora —
     <strong>British Columbia</strong>, <strong>Prairies / North-West
     Territories</strong>, and <strong>Quebec</strong> — based <em>not</em> on
     where the text says it is, but on the LINCS-grounded place of the agents
