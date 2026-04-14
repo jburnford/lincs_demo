@@ -84,21 +84,289 @@
     ],
     "places": [
       {
-        "uri": "https://sws.geonames.org/6119109/",
-        "name": "Regina",
-        "lat": 50.45008,
-        "lon": -104.6178,
-        "years": "1884–1899"
-      },
-      {
         "uri": "https://sws.geonames.org/6094817/",
         "name": "Ottawa",
         "lat": 45.41117,
         "lon": -75.69812,
         "years": "1889–1899"
+      },
+      {
+        "uri": "https://sws.geonames.org/6119109/",
+        "name": "Regina",
+        "lat": 50.45008,
+        "lon": -104.6178,
+        "years": "1884–1899"
       }
     ],
     "map_note": "Note: for 1880–1883, LINCS records the occupation at territory scale only (no settlement-level coordinates), so no pin is shown for those years.",
+    "neighborhood": {
+      "reports_in": [
+        {
+          "name": "Wadsworth",
+          "predicate": "reports_to",
+          "year_range": "1882",
+          "count": 1
+        },
+        {
+          "name": "A. MACDONALD",
+          "predicate": "reports_to",
+          "year_range": "1882",
+          "count": 1
+        },
+        {
+          "name": "PETER HOURIE",
+          "predicate": "reports_to",
+          "year_range": "1882",
+          "count": 1
+        },
+        {
+          "name": "Mr. Reed",
+          "predicate": "reports_to",
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "Craig",
+          "predicate": "reports_to",
+          "year_range": "1884",
+          "count": 1
+        }
+      ],
+      "administers": [
+        {
+          "name": "Indian Commissioner",
+          "predicate": "administers",
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Manitoba and the North-West Territories",
+          "predicate": "administers",
+          "year_range": "1882",
+          "count": 1
+        },
+        {
+          "name": "Manitoba Superintendency",
+          "predicate": "administers",
+          "year_range": "1883",
+          "count": 1
+        }
+      ],
+      "bands": [
+        {
+          "name": "Blackfeet",
+          "predicate": null,
+          "year_range": "1881–1886",
+          "count": 8
+        },
+        {
+          "name": "Crees",
+          "predicate": null,
+          "year_range": "1882–1886",
+          "count": 5
+        },
+        {
+          "name": "Bloods",
+          "predicate": null,
+          "year_range": "1880–1884",
+          "count": 4
+        },
+        {
+          "name": "Stonies",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 4
+        },
+        {
+          "name": "Sarcees",
+          "predicate": null,
+          "year_range": "1880–1884",
+          "count": 3
+        },
+        {
+          "name": "Piegans",
+          "predicate": null,
+          "year_range": "1880–1882",
+          "count": 3
+        },
+        {
+          "name": "Sioux",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Standing Buffalo",
+          "predicate": null,
+          "year_range": "1881–1883",
+          "count": 3
+        },
+        {
+          "name": "Assiniboine",
+          "predicate": null,
+          "year_range": "1882–1883",
+          "count": 3
+        },
+        {
+          "name": "Blackfoot",
+          "predicate": null,
+          "year_range": "1880–1881",
+          "count": 2
+        },
+        {
+          "name": "Thunder Child",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 2
+        },
+        {
+          "name": "White Cap",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Mosquito",
+          "predicate": null,
+          "year_range": "1881–1883",
+          "count": 2
+        },
+        {
+          "name": "O'Soup",
+          "predicate": null,
+          "year_range": "1881–1883",
+          "count": 2
+        },
+        {
+          "name": "Little Child",
+          "predicate": null,
+          "year_range": "1882–1883",
+          "count": 2
+        },
+        {
+          "name": "Cree",
+          "predicate": null,
+          "year_range": "1882",
+          "count": 2
+        },
+        {
+          "name": "Big Bear",
+          "predicate": null,
+          "year_range": "1882–1884",
+          "count": 2
+        },
+        {
+          "name": "Lucky Man",
+          "predicate": null,
+          "year_range": "1882–1884",
+          "count": 2
+        },
+        {
+          "name": "Piegan",
+          "predicate": null,
+          "year_range": "1882–1886",
+          "count": 2
+        },
+        {
+          "name": "Blood",
+          "predicate": null,
+          "year_range": "1882–1883",
+          "count": 2
+        }
+      ],
+      "schools": [
+        {
+          "name": "school on the Piegan Reservation",
+          "predicate": null,
+          "year_range": "1880",
+          "count": 1
+        },
+        {
+          "name": "school room",
+          "predicate": null,
+          "year_range": "1880",
+          "count": 1
+        },
+        {
+          "name": "Lennox Island school house",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Touchwood Hills School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Prince Albert School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Ahtahkakoop Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Red Pheasant Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Sekaskoots Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Blood Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "James Smith Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Little Hunters Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Moosoomins Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Muskeg Lake Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "St. Alberts Mission Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Poundmakers Reserve School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        }
+      ]
+    },
     "n_mentions_total": 29
   },
   "powell": {
@@ -187,6 +455,268 @@
       }
     ],
     "map_note": null,
+    "neighborhood": {
+      "reports_in": [
+        {
+          "name": "WILLIAM S. JEMMETT",
+          "predicate": "reports_to",
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "GEO. BLENKINSOP",
+          "predicate": "reports_to",
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Mr. Phillips",
+          "predicate": "employed_by",
+          "year_range": "1887",
+          "count": 1
+        }
+      ],
+      "administers": [
+        {
+          "name": "British Columbia",
+          "predicate": "administers",
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "ALBERNI",
+          "predicate": "administers",
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "KWAHKEWLTH Agency",
+          "predicate": "administers",
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Kootenay",
+          "predicate": "administers",
+          "year_range": "1887",
+          "count": 1
+        }
+      ],
+      "bands": [
+        {
+          "name": "Sumas",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 5
+        },
+        {
+          "name": "Matsque",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 5
+        },
+        {
+          "name": "Yale",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 4
+        },
+        {
+          "name": "Trafalgar Flat",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 4
+        },
+        {
+          "name": "Hope",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 4
+        },
+        {
+          "name": "Nicomen",
+          "predicate": null,
+          "year_range": "1880–1881",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Saugeen",
+          "predicate": null,
+          "year_range": "1881–1883",
+          "count": 3
+        },
+        {
+          "name": "Sioux",
+          "predicate": null,
+          "year_range": "1881–1883",
+          "count": 3
+        },
+        {
+          "name": "Hesquiaht",
+          "predicate": null,
+          "year_range": "1881–1883",
+          "count": 3
+        },
+        {
+          "name": "Soda Creek Indians",
+          "predicate": null,
+          "year_range": "1883–1886",
+          "count": 3
+        },
+        {
+          "name": "Cowichan",
+          "predicate": null,
+          "year_range": "1880–1884",
+          "count": 2
+        },
+        {
+          "name": "Batchewana Indians",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Beausoleil",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Nawash",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Rama",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Sarnia",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Snake Island",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Thames",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Chippewas of Walpole Island",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Fort William Band",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        }
+      ],
+      "schools": [
+        {
+          "name": "Indian School Fund",
+          "predicate": null,
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Seminary of St. Sulpice",
+          "predicate": null,
+          "year_range": "1882–1883",
+          "count": 2
+        },
+        {
+          "name": "Anglican Mission School",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "school for boys",
+          "predicate": null,
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Wikwemikong Industrial School",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "Mount Elgin Industrial School",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school at Parry Island",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school at Henvey's Inlet",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school at Shawanaga",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school at Nipegon",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school house",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "district school",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school on Swan Creek Reserve",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school on Fairford Reserve",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "school on Lake St. Martin Reserve",
+          "predicate": null,
+          "year_range": "1883",
+          "count": 1
+        }
+      ]
+    },
     "n_mentions_total": 23
   },
   "boucher": {
@@ -288,21 +818,246 @@
     ],
     "places": [
       {
-        "uri": "https://sws.geonames.org/5988641/",
-        "name": "Kahnawake",
-        "lat": 45.41098,
-        "lon": -73.68144,
-        "years": "1886–1899"
-      },
-      {
         "uri": "https://sws.geonames.org/6945992/",
         "name": "Betsiamites",
         "lat": 48.94133,
         "lon": -68.64601,
         "years": "1880–1899"
+      },
+      {
+        "uri": "https://sws.geonames.org/5988641/",
+        "name": "Kahnawake",
+        "lat": 45.41098,
+        "lon": -73.68144,
+        "years": "1886–1899"
       }
     ],
     "map_note": null,
+    "neighborhood": {
+      "reports_in": [],
+      "administers": [
+        {
+          "name": "North Shore, River St. Lawrence Agency",
+          "predicate": "administers",
+          "year_range": "1881–1882",
+          "count": 2
+        },
+        {
+          "name": "Montagnais Indians of Grande Romaine, Natashquan, Mingan, Seven Islands, Godbout and Escoumains",
+          "predicate": "administers",
+          "year_range": "1880",
+          "count": 1
+        },
+        {
+          "name": "Indians of Notre Dame Bethsiamits",
+          "predicate": "administers",
+          "year_range": "1880",
+          "count": 1
+        },
+        {
+          "name": "COUNTY AND DISTRICT OF SAGUENAY",
+          "predicate": "administers",
+          "year_range": "1881",
+          "count": 1
+        },
+        {
+          "name": "Montagnais Indians",
+          "predicate": "administers",
+          "year_range": "1883",
+          "count": 1
+        },
+        {
+          "name": "North Shore River St. Lawrence Superintendency",
+          "predicate": "administers",
+          "year_range": "1884",
+          "count": 1
+        },
+        {
+          "name": "North Coast",
+          "predicate": "administers",
+          "year_range": "1884",
+          "count": 1
+        },
+        {
+          "name": "Et Batsiamits",
+          "predicate": "administers",
+          "year_range": "1885",
+          "count": 1
+        },
+        {
+          "name": "Indians of the Escoumains Reserve",
+          "predicate": "administers",
+          "year_range": "1886",
+          "count": 1
+        },
+        {
+          "name": "Indians of the Betsiamits Reserve",
+          "predicate": "administers",
+          "year_range": "1886",
+          "count": 1
+        },
+        {
+          "name": "Notre Dame de Betsiamits",
+          "predicate": "administers",
+          "year_range": "1888",
+          "count": 1
+        },
+        {
+          "name": "NOTRE DAME DE BETSIAMITS",
+          "predicate": "administers",
+          "year_range": "1889",
+          "count": 1
+        },
+        {
+          "name": "SAGUENAY DISTRICT",
+          "predicate": "administers",
+          "year_range": "1891",
+          "count": 1
+        }
+      ],
+      "bands": [
+        {
+          "name": "Mingan",
+          "predicate": null,
+          "year_range": "1880–1889",
+          "count": 7
+        },
+        {
+          "name": "Montagnais Indians",
+          "predicate": null,
+          "year_range": "1880–1889",
+          "count": 6
+        },
+        {
+          "name": "Natashquan",
+          "predicate": null,
+          "year_range": "1880–1889",
+          "count": 6
+        },
+        {
+          "name": "Escoumains",
+          "predicate": null,
+          "year_range": "1880–1889",
+          "count": 6
+        },
+        {
+          "name": "Godbout",
+          "predicate": null,
+          "year_range": "1880–1889",
+          "count": 5
+        },
+        {
+          "name": "Indians of Godbout",
+          "predicate": null,
+          "year_range": "1881–1891",
+          "count": 5
+        },
+        {
+          "name": "Iroquois of Caughnawaga",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 4
+        },
+        {
+          "name": "Sept Isles",
+          "predicate": null,
+          "year_range": "1884–1889",
+          "count": 4
+        },
+        {
+          "name": "Grande Romaine",
+          "predicate": null,
+          "year_range": "1880–1885",
+          "count": 3
+        },
+        {
+          "name": "Seven Islands",
+          "predicate": null,
+          "year_range": "1880–1882",
+          "count": 3
+        },
+        {
+          "name": "Montagnais",
+          "predicate": null,
+          "year_range": "1880–1885",
+          "count": 3
+        },
+        {
+          "name": "Batchewana Indians",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Beausoleil",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Nawash",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Rama",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Sarnia",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Saugeen",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Snake Island",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Chippewas of Walpole Island",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Fort William Band",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        }
+      ],
+      "schools": [
+        {
+          "name": "Indian School Fund",
+          "predicate": null,
+          "year_range": "1881–1884",
+          "count": 3
+        },
+        {
+          "name": "Seminary of St. Sulpice",
+          "predicate": null,
+          "year_range": "1882",
+          "count": 1
+        },
+        {
+          "name": "Wikwemikong Industrial School",
+          "predicate": null,
+          "year_range": "1884",
+          "count": 1
+        }
+      ]
+    },
     "n_mentions_total": 21
   }
 }

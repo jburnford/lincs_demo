@@ -262,6 +262,7 @@ def main():
                     'role_in_text': matched_role,
                     'name_in_text': matched_name,
                     'text': sec.get('text', ''),
+                    'entities': ent,
                 })
 
         # Preferred role ranking — pick the most senior/relevant title when
@@ -422,6 +423,105 @@ def main():
                 'level coordinates), so no pin is shown for those years.'
             )
 
+        # KG neighborhood: walk relationships in each matched section,
+        # categorising edges that involve the agent by name substring.
+        reports_in_counts: dict[str, dict] = {}
+        administers_counts: dict[str, dict] = {}
+        co_bands: dict[str, dict] = {}
+        co_schools: dict[str, dict] = {}
+
+        def name_matches_agent(s: str) -> bool:
+            if not s:
+                return False
+            s_lc = s.lower()
+            return any(mn in s_lc for mn in match_names_lc)
+
+        SCHOOL_RE = re.compile(r'\b(school|college|academy|seminary)\b', re.I)
+
+        for year, ms in mentions_by_year.items():
+            for m in ms:
+                ent = m['entities']
+                # First pass: determine if the agent is an ACTIVE participant
+                # in any relationship in this section (as subject or object).
+                # If not, the section is just a listing — don't harvest
+                # co-occurrences from it.
+                agent_in_rel = False
+                for r in ent.get('relationships') or []:
+                    if (name_matches_agent(r.get('subject') or '')
+                            or name_matches_agent(r.get('object') or '')):
+                        agent_in_rel = True
+                        break
+
+                for r in ent.get('relationships') or []:
+                    subj = r.get('subject') or ''
+                    obj = r.get('object') or ''
+                    pred = (r.get('predicate') or '').lower()
+                    # Reports-in: someone → agent
+                    if pred in ('reports_to', 'employed_by') and name_matches_agent(obj):
+                        if not name_matches_agent(subj):
+                            key_s = re.sub(r'\s+', ' ', subj.strip())
+                            entry = reports_in_counts.setdefault(key_s, {
+                                'name': key_s, 'predicate': pred,
+                                'years': set(), 'count': 0,
+                            })
+                            entry['years'].add(year)
+                            entry['count'] += 1
+                    # Administers: agent → place/org
+                    if pred in ('administers', 'superintends') and name_matches_agent(subj):
+                        if not name_matches_agent(obj):
+                            key_o = re.sub(r'\s+', ' ', obj.strip())
+                            entry = administers_counts.setdefault(key_o, {
+                                'name': key_o, 'predicate': pred,
+                                'years': set(), 'count': 0,
+                            })
+                            entry['years'].add(year)
+                            entry['count'] += 1
+
+                if not agent_in_rel:
+                    continue  # skip co-occurrence harvest for listing sections
+
+                # Co-occurring indigenous groups (preserved as extracted text
+                # only — no external grounding)
+                for g in ent.get('indigenous_groups') or []:
+                    nm = (g.get('name') or '').strip()
+                    if not nm:
+                        continue
+                    entry = co_bands.setdefault(nm.lower(), {
+                        'name': nm, 'years': set(), 'count': 0,
+                    })
+                    entry['years'].add(year)
+                    entry['count'] += 1
+
+                # Co-occurring schools (from places_orgs)
+                for pl in ent.get('places_orgs') or []:
+                    nm = (pl.get('name') or '').strip()
+                    if nm and SCHOOL_RE.search(nm) and nm.lower() != 'school':
+                        entry = co_schools.setdefault(nm.lower(), {
+                            'name': nm, 'years': set(), 'count': 0,
+                        })
+                        entry['years'].add(year)
+                        entry['count'] += 1
+
+        def finalise(d: dict, top_n: int = 12):
+            out = []
+            for v in d.values():
+                years = sorted(v['years'])
+                out.append({
+                    'name': v['name'],
+                    'predicate': v.get('predicate'),
+                    'year_range': f'{years[0]}' if years[0] == years[-1] else f'{years[0]}–{years[-1]}',
+                    'count': v['count'],
+                })
+            out.sort(key=lambda x: -x['count'])
+            return out[:top_n]
+
+        neighborhood = {
+            'reports_in': finalise(reports_in_counts, 15),
+            'administers': finalise(administers_counts, 15),
+            'bands': finalise(co_bands, 20),
+            'schools': finalise(co_schools, 15),
+        }
+
         payload[key] = {
             'name': cfg['canonical_name'],
             'lincs_uri': cfg['lincs_uri'],
@@ -430,9 +530,11 @@ def main():
             'snippets': snippets,
             'places': places_out,
             'map_note': map_note,
+            'neighborhood': neighborhood,
             'n_mentions_total': sum(len(ms) for ms in mentions_by_year.values()),
         }
         print(f'  timeline: {len(timeline)} years | snippets: {len(snippets)} | places: {len(places_out)} | total mentions: {payload[key]["n_mentions_total"]}')
+        print(f'  neighborhood: reports_in={len(neighborhood["reports_in"])} administers={len(neighborhood["administers"])} bands={len(neighborhood["bands"])} schools={len(neighborhood["schools"])}')
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(payload, indent=2, ensure_ascii=False))

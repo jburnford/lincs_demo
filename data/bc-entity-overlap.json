@@ -1,0 +1,4116 @@
+{
+  "top_bands": [
+    {
+      "name": "Shuswap",
+      "agent_count": 8,
+      "total_mentions": 9,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dq8u955YoTB",
+          "name": "Mary A. Richardson",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/mMJjRftswQ3",
+          "name": "Wentworth F. Wood",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kwawkewlth nation",
+      "agent_count": 7,
+      "total_mentions": 10,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Cowichan",
+      "agent_count": 6,
+      "total_mentions": 10,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/etVv7Lg1thL",
+          "name": "Sister Mary Celestine",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Canoe Creek Band",
+      "agent_count": 5,
+      "total_mentions": 9,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QSSEg72nYEr",
+          "name": "Gomer Johns",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Penticton Indians",
+      "agent_count": 5,
+      "total_mentions": 7,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Saanich",
+      "agent_count": 5,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Chilcotins",
+      "agent_count": 5,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Claoquaht",
+      "agent_count": 4,
+      "total_mentions": 8,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Nicomen",
+      "agent_count": 4,
+      "total_mentions": 7,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Tseshahts",
+      "agent_count": 4,
+      "total_mentions": 7,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Sliammon",
+      "agent_count": 4,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 2
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Bridge River band",
+      "agent_count": 4,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Clinton Band",
+      "agent_count": 4,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Dog Creek Band",
+      "agent_count": 4,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Alkali Lake Band",
+      "agent_count": 4,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kamloops band",
+      "agent_count": 4,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/mMJjRftswQ3",
+          "name": "Wentworth F. Wood",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Nicola",
+      "agent_count": 4,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kyukahts",
+      "agent_count": 4,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kitkahtla Indians",
+      "agent_count": 4,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/lx81h6BjcFM",
+          "name": "O. Fletcher",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Alexandria Band",
+      "agent_count": 4,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Assiniboines",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Songhees Reserve",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Beaver Lake band",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/OcrwhX1lkmz",
+          "name": "Erasmus, Peter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Nanaimo",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Musqueim Indians",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "St. Mary's Band",
+      "agent_count": 3,
+      "total_mentions": 8,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ChxNpHhbqHb",
+          "name": "Galbraith, Robert L. T.",
+          "count": 4
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Nanaimo Band",
+      "agent_count": 3,
+      "total_mentions": 7,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Saanich Band",
+      "agent_count": 3,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Lillooet Band",
+      "agent_count": 3,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Cayoosh Band",
+      "agent_count": 3,
+      "total_mentions": 6,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Klahoose",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Hesquiaht",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Tsimpsean Nation",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Cowichan Band",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Upper Kootenay Indians",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kamloops Indians",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Fountain Band",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Chilcotin Indians",
+      "agent_count": 3,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Heshquiahts",
+      "agent_count": 3,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Tsimpsean",
+      "agent_count": 3,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "top_places": [
+    {
+      "name": "Fraser River",
+      "agent_count": 24,
+      "total_mentions": 63,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 8
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 7
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 6
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 4
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/nM57PoWntve",
+          "name": "Loring, Richard E.",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/etVv7Lg1thL",
+          "name": "Sister Mary Celestine",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Victoria",
+      "agent_count": 18,
+      "total_mentions": 67,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 11
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 10
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 8
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 8
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kamloops",
+      "agent_count": 14,
+      "total_mentions": 31,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 8
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/mMJjRftswQ3",
+          "name": "Wentworth F. Wood",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Vancouver Island",
+      "agent_count": 14,
+      "total_mentions": 31,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 4
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/lx81h6BjcFM",
+          "name": "O. Fletcher",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Roman Catholic Church",
+      "agent_count": 14,
+      "total_mentions": 17,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ChxNpHhbqHb",
+          "name": "Galbraith, Robert L. T.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/nM57PoWntve",
+          "name": "Loring, Richard E.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/87OaPFsA2bq",
+          "name": "indigenous person named Tom",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "industrial school",
+      "agent_count": 13,
+      "total_mentions": 20,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ChxNpHhbqHb",
+          "name": "Galbraith, Robert L. T.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Canadian Pacific Railway",
+      "agent_count": 13,
+      "total_mentions": 18,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/mMJjRftswQ3",
+          "name": "Wentworth F. Wood",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Alert Bay",
+      "agent_count": 12,
+      "total_mentions": 33,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 12
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 6
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Metlakahtla",
+      "agent_count": 12,
+      "total_mentions": 32,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 8
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Skeena River",
+      "agent_count": 12,
+      "total_mentions": 27,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/nM57PoWntve",
+          "name": "Loring, Richard E.",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 4
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/lx81h6BjcFM",
+          "name": "O. Fletcher",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "COWICHAN AGENCY",
+      "agent_count": 11,
+      "total_mentions": 22,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 6
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/nM57PoWntve",
+          "name": "Loring, Richard E.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Roman Catholic mission",
+      "agent_count": 11,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/etVv7Lg1thL",
+          "name": "Sister Mary Celestine",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "New Westminster",
+      "agent_count": 10,
+      "total_mentions": 29,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 12
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Fraser",
+      "agent_count": 10,
+      "total_mentions": 23,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 2
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Barclay Sound",
+      "agent_count": 10,
+      "total_mentions": 21,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 7
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/Zk52jcDrday",
+          "name": "E.M. Skinner",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Clinton",
+      "agent_count": 10,
+      "total_mentions": 20,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QSSEg72nYEr",
+          "name": "Gomer Johns",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kamloops Industrial School",
+      "agent_count": 10,
+      "total_mentions": 18,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 6
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dq8u955YoTB",
+          "name": "Mary A. Richardson",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/mMJjRftswQ3",
+          "name": "Wentworth F. Wood",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Port Simpson",
+      "agent_count": 10,
+      "total_mentions": 14,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Church of England",
+      "agent_count": 10,
+      "total_mentions": 13,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Prince Albert",
+      "agent_count": 9,
+      "total_mentions": 21,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 5
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/bgbYF33o6eG",
+          "name": "T. Edmundson.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Thompson River",
+      "agent_count": 9,
+      "total_mentions": 16,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Lytton",
+      "agent_count": 9,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 6
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dq8u955YoTB",
+          "name": "Mary A. Richardson",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "church",
+      "agent_count": 9,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Methodist Church",
+      "agent_count": 9,
+      "total_mentions": 14,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/bgbYF33o6eG",
+          "name": "T. Edmundson.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Cape Mudge",
+      "agent_count": 8,
+      "total_mentions": 24,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 9
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Church Missionary Society",
+      "agent_count": 8,
+      "total_mentions": 18,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Lillooet",
+      "agent_count": 8,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Comox",
+      "agent_count": 8,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 6
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/etVv7Lg1thL",
+          "name": "Sister Mary Celestine",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Okanagan",
+      "agent_count": 8,
+      "total_mentions": 14,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Fort Simpson",
+      "agent_count": 8,
+      "total_mentions": 12,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Hudson's Bay Company",
+      "agent_count": 8,
+      "total_mentions": 12,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/nM57PoWntve",
+          "name": "Loring, Richard E.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/OcrwhX1lkmz",
+          "name": "Erasmus, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Lac la Biche",
+      "agent_count": 8,
+      "total_mentions": 10,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/OcrwhX1lkmz",
+          "name": "Erasmus, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q504071",
+          "name": "Andrew Charles Elliott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Bridge River",
+      "agent_count": 8,
+      "total_mentions": 10,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "North-West Coast Agency",
+      "agent_count": 8,
+      "total_mentions": 9,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/w2GtX5rP7Xk",
+          "name": "Charles Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "ALBERNI",
+      "agent_count": 7,
+      "total_mentions": 22,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 10
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Nanaimo",
+      "agent_count": 7,
+      "total_mentions": 18,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 10
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 1
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Harrison River",
+      "agent_count": 7,
+      "total_mentions": 16,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 7
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kamloops Agency",
+      "agent_count": 7,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/2Ol8BLlUsk8",
+          "name": "A.E. Howse",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Soda Creek",
+      "agent_count": 7,
+      "total_mentions": 14,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 4
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/lx81h6BjcFM",
+          "name": "O. Fletcher",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Canoe Creek",
+      "agent_count": 7,
+      "total_mentions": 13,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4wjfC8s424E",
+          "name": "J.W. Powell, M.D.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 3
+        },
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AtbBDPAiblL",
+          "name": "H. Cornwall",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QSSEg72nYEr",
+          "name": "Gomer Johns",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "top_schools": [
+    {
+      "name": "industrial school",
+      "agent_count": 13,
+      "total_mentions": 20,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ChxNpHhbqHb",
+          "name": "Galbraith, Robert L. T.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kamloops Industrial School",
+      "agent_count": 10,
+      "total_mentions": 18,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 6
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/65M2BHzBphw",
+          "name": "Mackay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dq8u955YoTB",
+          "name": "Mary A. Richardson",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/mMJjRftswQ3",
+          "name": "Wentworth F. Wood",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/SCFqJwCQyMw",
+          "name": "Leighton, Jas. B.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/he4Hf4VrRtO",
+          "name": "Devlin, Frank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Kootenay Industrial School",
+      "agent_count": 6,
+      "total_mentions": 8,
+      "agents": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ChxNpHhbqHb",
+          "name": "Galbraith, Robert L. T.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "KUPER ISLAND INDUSTRIAL SCHOOL",
+      "agent_count": 5,
+      "total_mentions": 15,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 7
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 3
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/9wiB8Xnb63x",
+          "name": "Sister Mary Joachim",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Metlakahtla Industrial School",
+      "agent_count": 4,
+      "total_mentions": 9,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 5
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ONCnKExN1FZ",
+          "name": "Rev. G. Donckele",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/QS7kwL4F8aM",
+          "name": "James McGregor",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Emmanuel College",
+      "agent_count": 4,
+      "total_mentions": 7,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 4
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "INDIAN INDUSTRIAL SCHOOL",
+      "agent_count": 4,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/53sIVhelte2",
+          "name": "C. Todd",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/XPH0HKAoB0V",
+          "name": "H. Moffat.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/oa5ynhoxel4",
+          "name": "Joseph W. Mackay.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Qu'Appelle Industrial School",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Alert Bay industrial school",
+      "agent_count": 4,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://viaf.org/viaf/125729442",
+          "name": "O'Reilly, Peter",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
+          "name": "F.A. Devereux",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "school",
+      "agent_count": 3,
+      "total_mentions": 5,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/zceMGWqc4Fy",
+          "name": "H. Guillod",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/EGT0gDVBnKw",
+          "name": "W.R. Lomas",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Williams Lake Industrial School",
+      "agent_count": 3,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/a89IlZCpkN7",
+          "name": "Guillod, Harry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "school on this reserve",
+      "agent_count": 3,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "St. Joseph's Industrial School",
+      "agent_count": 3,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/gea75vYBKkE",
+          "name": "M. Phillipps",
+          "count": 1
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Battleford Industrial School",
+      "agent_count": 3,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Industrial School, Battleford",
+      "agent_count": 3,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/bgbYF33o6eG",
+          "name": "T. Edmundson.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "St. Albert Mission boarding and day school",
+      "agent_count": 3,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/iLewz6EQDk1",
+          "name": "Rev. J.W. MacKay",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/dTBjuxoC83g",
+          "name": "Mitchell, John A.",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/bgbYF33o6eG",
+          "name": "T. Edmundson.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "school reserve",
+      "agent_count": 2,
+      "total_mentions": 4,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/6Tn1uQDyKbJ",
+          "name": "Rev. A.M. Carion",
+          "count": 3
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "day school",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ZIYkcepsHTT",
+          "name": "Pidcock, Richard H.",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "William's Lake Industrial School",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/AQmMo2TS80C",
+          "name": "Bell, Ewen",
+          "count": 2
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q4800642",
+          "name": "Arthur Wellesley Vowell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Saanich school",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/ibe5dMXiwBt",
+          "name": "William H. Lomas",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "ST. MICHAEL'S BOARDING SCHOOL",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "JOHN SMITH'S DAY SCHOOL",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "RED PHEASANT'S DAY SCHOOL",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "SWEET GRASS' DAY SCHOOL",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "LITTLE PINE'S DAY SCHOOL",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "POUNDMAKER'S DAY SCHOOL",
+      "agent_count": 2,
+      "total_mentions": 3,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 2
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "the school",
+      "agent_count": 2,
+      "total_mentions": 2,
+      "agents": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q5537047",
+          "name": "George Blenkinsop",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/4Jx6gqI5aaf",
+          "name": "J.R. Scott",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "school on the reserve",
+      "agent_count": 2,
+      "total_mentions": 2,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
+          "name": "W.L. Meason",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Church of England school",
+      "agent_count": 2,
+      "total_mentions": 2,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/S8nyEOr58DR",
+          "name": "P. McTiernan",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/uzH94m0heXu",
+          "name": "Sister M. Frs. Xavier",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "St. Boniface Industrial School",
+      "agent_count": 2,
+      "total_mentions": 2,
+      "agents": [
+        {
+          "uri": "http://id.lincsproject.ca/UNGWQJ9nOu8",
+          "name": "Pritchard, John",
+          "count": 1
+        },
+        {
+          "uri": "http://id.lincsproject.ca/jnJtln2G0RQ",
+          "name": "W. Thompson",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "distinct_bands": 2061,
+    "bands_with_overlap": 597,
+    "distinct_places": 2889,
+    "places_with_overlap": 988,
+    "distinct_schools": 182,
+    "schools_with_overlap": 57
+  }
+}

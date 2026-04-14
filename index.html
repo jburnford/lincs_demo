@@ -84,6 +84,7 @@
       <div class="case-map" id="map-dewdney"></div>
     </div>
     <div class="case-snippets" data-agent="dewdney"></div>
+    <div class="case-neighborhood" data-agent="dewdney"></div>
   </article>
 
   <article class="case-study" id="case-powell">
@@ -98,6 +99,7 @@
       <div class="case-map" id="map-powell"></div>
     </div>
     <div class="case-snippets" data-agent="powell"></div>
+    <div class="case-neighborhood" data-agent="powell"></div>
   </article>
 
   <article class="case-study" id="case-boucher">
@@ -116,6 +118,7 @@
       <div class="case-map" id="map-boucher"></div>
     </div>
     <div class="case-snippets" data-agent="boucher"></div>
+    <div class="case-neighborhood" data-agent="boucher"></div>
   </article>
 </section>
 
@@ -158,6 +161,56 @@
     (<em>Ontario</em>, <em>Quebec</em>, <em>Victoria County</em>,
     <em>Maniwaki</em>). Producing zero false positives in a public
     demo is more valuable than recall.
+  </p>
+</section>
+
+<section id="admin-network">
+  <h2>The administrative hierarchy, reconstructed</h2>
+  <p class="lede">
+    A directed network of <em>who reports to whom</em> among British
+    Columbia's Indian Affairs staff, extracted entirely from
+    free-text relationships in the reports.
+  </p>
+  <p>
+    Beyond agent and place grounding, the NER pipeline also extracts
+    typed relationships between entities — <em>reports_to</em>,
+    <em>administers</em>, <em>employed_by</em>, <em>serves_as</em>,
+    and so on. In the 249 sections that mention at least one
+    BC-serving LINCS agent, the pipeline extracted 3,593 such
+    relationships. The graph below shows just the person-to-person
+    administrative edges: 11 edges after a human audit (13 extracted;
+    two filtered as predicate-wrong), 15 distinct people, 11 of whom
+    match a LINCS URI.
+  </p>
+  <div id="admin-network-svg"></div>
+  <p class="place-map-stats" id="admin-network-legend">
+    <span class="region-legend">
+      <span><span class="swatch" style="background:var(--accent)"></span>Grounded to LINCS</span>
+      <span><span class="swatch" style="background:#b8ae97"></span>Ungrounded</span>
+      <span><span class="swatch" style="background:#2c6e85"></span>reports_to</span>
+      <span><span class="swatch" style="background:#b87333"></span>employed_by</span>
+    </span>
+  </p>
+  <p>
+    What the graph reveals is the <strong>succession of the BC
+    superintendency</strong> over twenty years. I.W. Powell is the
+    incoming hub in the early 1880s (Jemmett, Blenkinsop, and Meason
+    all report to him). By 1889 the hub shifts to Peter O'Reilly, the
+    Indian Reserve Commissioner — Skinner, Devereux, and Fletcher all
+    report up through him while he walks the province drawing reserve
+    boundaries. When O'Reilly retires after 1897, Skinner and Devereux
+    immediately reappear in 1898 reporting to his successor A.W.
+    Vowell. Nobody encoded this succession anywhere; it fell out of
+    the relationship extraction.
+  </p>
+  <p>
+    These twelve BC-anchored person-to-person edges are a thin slice
+    of a much larger graph: 1,393 <code>located_on_reserve</code>
+    edges, 460 <code>administers</code>, 358 <code>works_at</code>,
+    164 <code>teaches_at</code>. Those describe the reserves, schools,
+    and offices the agents are embedded in — the scaffolding of a
+    full administrative knowledge graph that a bigger project could
+    build on top of the LOD anchors shown here.
   </p>
 </section>
 
@@ -244,6 +297,7 @@ dia:section/1882_dewdney_nwt a crm:E73_Information_Object ;
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://unpkg.com/@triply/yasgui@4.2.28/build/yasgui.min.js"></script>
+<script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
 <script src="assets/demo.js"></script>
 </body>
 </html>

@@ -19,6 +19,47 @@ function renderTimeline(container, entries) {
   container.appendChild(ol);
 }
 
+function renderNeighborhood(container, neighborhood) {
+  if (!container || !neighborhood) return;
+  const { reports_in = [], administers = [], bands = [], schools = [] } = neighborhood;
+  const topBands = bands.slice(0, 8);
+  const topSchools = schools.slice(0, 6);
+  const topReports = reports_in.slice(0, 8);
+  const topAdmin = administers.slice(0, 6);
+
+  if (!topBands.length && !topSchools.length && !topReports.length && !topAdmin.length) {
+    container.innerHTML = '';
+    return;
+  }
+
+  const chip = e => {
+    const yr = e.year_range ? ` <span class="yr">${e.year_range}</span>` : '';
+    const ct = e.count > 1 ? ` <span class="ct">×${e.count}</span>` : '';
+    return `<li>${e.name}${yr}${ct}</li>`;
+  };
+
+  let html = '<h4>Knowledge-graph neighborhood</h4><div class="neighborhood-grid">';
+  if (topReports.length) {
+    html += '<div class="nb-col"><h5>Who reports to them</h5><ul>' +
+            topReports.map(chip).join('') + '</ul></div>';
+  }
+  if (topAdmin.length) {
+    html += '<div class="nb-col"><h5>What they administer</h5><ul>' +
+            topAdmin.map(chip).join('') + '</ul></div>';
+  }
+  if (topBands.length) {
+    html += '<div class="nb-col"><h5>Bands and communities named</h5><ul>' +
+            topBands.map(chip).join('') + '</ul></div>';
+  }
+  if (topSchools.length) {
+    html += '<div class="nb-col"><h5>Schools named</h5><ul>' +
+            topSchools.map(chip).join('') + '</ul></div>';
+  }
+  html += '</div>';
+  html += '<p class="nb-caveat">Extracted from NER relationships and co-occurring entities in sections where the agent is an active participant. Unreviewed — some predicate-level noise remains (see audit notes under the network panel).</p>';
+  container.innerHTML = html;
+}
+
 function renderSnippets(container, snippets) {
   if (!snippets || !snippets.length) {
     container.innerHTML = '';
@@ -160,6 +201,114 @@ function renderPlaceMap(payload) {
   update(slider ? +slider.value : 1899);
 }
 
+function renderAdminNetwork(payload) {
+  const container = document.getElementById('admin-network-svg');
+  if (!container || !payload || !payload.nodes || !payload.nodes.length) return;
+  if (typeof d3 === 'undefined') {
+    console.warn('d3 not loaded');
+    return;
+  }
+
+  container.innerHTML = '';
+  const rect = container.getBoundingClientRect();
+  const width = rect.width || 880;
+  const height = rect.height || 560;
+
+  const tooltip = document.createElement('div');
+  tooltip.className = 'admin-tooltip';
+  container.appendChild(tooltip);
+
+  const svg = d3.select(container)
+    .append('svg')
+    .attr('viewBox', `0 0 ${width} ${height}`);
+
+  // Arrowhead marker
+  svg.append('defs').selectAll('marker')
+    .data(['reports_to', 'employed_by'])
+    .join('marker')
+      .attr('id', d => `arrow-${d}`)
+      .attr('viewBox', '0 -5 10 10')
+      .attr('refX', 18)
+      .attr('refY', 0)
+      .attr('markerWidth', 6)
+      .attr('markerHeight', 6)
+      .attr('orient', 'auto')
+      .append('path')
+        .attr('d', 'M0,-5L10,0L0,5')
+        .attr('fill', d => d === 'reports_to' ? '#2c6e85' : '#b87333');
+
+  // Work on copies — d3.force mutates
+  const nodes = payload.nodes.map(n => Object.assign({}, n));
+  const edges = payload.edges.map(e => Object.assign({}, e));
+
+  const nodeById = new Map(nodes.map(n => [n.id, n]));
+  const radiusFor = n => 6 + 2 * Math.sqrt(n.in_degree + n.out_degree);
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(edges).id(d => d.id).distance(95).strength(0.6))
+    .force('charge', d3.forceManyBody().strength(-340))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collide', d3.forceCollide().radius(d => radiusFor(d) + 10));
+
+  const link = svg.append('g')
+    .selectAll('path')
+    .data(edges)
+    .join('path')
+      .attr('class', e => `admin-edge ${e.predicate}`)
+      .attr('marker-end', e => `url(#arrow-${e.predicate})`)
+      .attr('stroke-width', e => 1.5 + Math.log2(1 + e.count))
+      .on('mousemove', (ev, e) => {
+        const sourceLabel = nodeById.get(e.source.id || e.source)?.label || '';
+        const targetLabel = nodeById.get(e.target.id || e.target)?.label || '';
+        const years = e.years ? (e.years[0] === e.years[1] ? e.years[0] : `${e.years[0]}–${e.years[1]}`) : '';
+        tooltip.innerHTML =
+          `<strong>${sourceLabel}</strong> — ${e.predicate.replace('_', ' ')} → <strong>${targetLabel}</strong><br>` +
+          `${years} · ${e.count} mention${e.count === 1 ? '' : 's'}` +
+          (e.evidence_sample ? `<div class="evidence">"${e.evidence_sample}"</div>` : '');
+        tooltip.style.display = 'block';
+        tooltip.style.left = (ev.offsetX + 14) + 'px';
+        tooltip.style.top  = (ev.offsetY + 14) + 'px';
+      })
+      .on('mouseleave', () => { tooltip.style.display = 'none'; });
+
+  const node = svg.append('g')
+    .selectAll('g')
+    .data(nodes)
+    .join('g')
+      .attr('class', n => `admin-node ${n.grounded_uri ? 'grounded' : 'ungrounded'}`)
+      .call(d3.drag()
+        .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag',  (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+        .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+  node.append('circle').attr('r', radiusFor);
+
+  node.append('text')
+    .attr('x', n => radiusFor(n) + 4)
+    .attr('y', 4)
+    .text(n => n.label.replace(/,.*$/, '').replace(/\s+(Esq\.?|M\.?D\.?)$/i, ''));
+
+  node.on('mousemove', (ev, n) => {
+    const years = n.years ? `${n.years[0]}–${n.years[1]}` : '';
+    tooltip.innerHTML =
+      `<strong>${n.label}</strong><br>` +
+      `in ${n.in_degree} · out ${n.out_degree} · ${n.section_count} section${n.section_count === 1 ? '' : 's'} · ${years}` +
+      (n.grounded_uri ? `<div class="evidence">${n.grounded_uri}</div>` : '<div class="evidence">ungrounded</div>');
+    tooltip.style.display = 'block';
+    tooltip.style.left = (ev.offsetX + 14) + 'px';
+    tooltip.style.top  = (ev.offsetY + 14) + 'px';
+  }).on('mouseleave', () => { tooltip.style.display = 'none'; });
+
+  sim.on('tick', () => {
+    link.attr('d', e => {
+      const dx = e.target.x - e.source.x;
+      const dy = e.target.y - e.source.y;
+      return `M${e.source.x},${e.source.y}L${e.target.x},${e.target.y}`;
+    });
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+}
+
 function renderTFIDF(container, data) {
   container.innerHTML = '';
   const regions = [
@@ -244,6 +393,8 @@ async function init() {
       if (tl) renderTimeline(tl, a.timeline || []);
       const sn = document.querySelector(`.case-snippets[data-agent="${agent}"]`);
       if (sn) renderSnippets(sn, a.snippets || []);
+      const nb = document.querySelector(`.case-neighborhood[data-agent="${agent}"]`);
+      if (nb) renderNeighborhood(nb, a.neighborhood);
       renderMap(`map-${agent}`, a.places || [], a.map_note);
     }
   } catch (e) {
@@ -263,6 +414,14 @@ async function init() {
     renderPlaceMap(placeMap);
   } catch (e) {
     console.error('Place map:', e);
+  }
+
+  // Admin network panel
+  try {
+    const adminNet = await loadJSON('data/bc-admin-network.json');
+    renderAdminNetwork(adminNet);
+  } catch (e) {
+    console.error('Admin network:', e);
   }
 
   // Regional TF-IDF
