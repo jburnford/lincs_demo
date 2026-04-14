@@ -1,175 +1,203 @@
 {
   "nodes": [
     {
+      "id": "__dia__",
+      "label": "Department of Indian Affairs",
+      "grounded_uri": null,
+      "in_degree": 15,
+      "out_degree": 0,
+      "years": [
+        1881,
+        1898
+      ],
+      "section_count": 11,
+      "is_department": true
+    },
+    {
       "id": "oreilly",
       "label": "P. O'Reilly",
       "grounded_uri": "http://viaf.org/viaf/125729442",
       "in_degree": 6,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": [
         1889,
         1894
       ],
-      "section_count": 5
+      "section_count": 5,
+      "is_department": false
     },
     {
       "id": "powell",
       "label": "I.W. POWELL, Esq.",
       "grounded_uri": "http://id.lincsproject.ca/4wjfC8s424E",
       "in_degree": 4,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": [
         1881,
         1887
       ],
-      "section_count": 4
+      "section_count": 4,
+      "is_department": false
     },
     {
       "id": "devereux",
       "label": "F.A. DEVEREUX",
       "grounded_uri": "http://id.lincsproject.ca/ZFnk7jI8JQx",
       "in_degree": 0,
-      "out_degree": 4,
+      "out_degree": 5,
       "years": [
         1891,
         1898
       ],
-      "section_count": 3
+      "section_count": 3,
+      "is_department": false
     },
     {
       "id": "skinner",
       "label": "E.M. SKINNER",
       "grounded_uri": "http://id.lincsproject.ca/Zk52jcDrday",
       "in_degree": 0,
-      "out_degree": 3,
+      "out_degree": 4,
       "years": [
         1889,
         1898
       ],
-      "section_count": 3
+      "section_count": 3,
+      "is_department": false
     },
     {
       "id": "vowell",
       "label": "A.W. VOWELL",
       "grounded_uri": "http://www.wikidata.org/entity/Q4800642",
       "in_degree": 2,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": [
         1898,
         1898
       ],
-      "section_count": 2
+      "section_count": 2,
+      "is_department": false
     },
     {
       "id": "jemmett",
       "label": "WILLIAM S. JEMMETT",
       "grounded_uri": null,
       "in_degree": 0,
-      "out_degree": 1,
+      "out_degree": 2,
       "years": [
         1881,
         1881
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "blenkinsop",
       "label": "GEO. BLENKINSOP",
       "grounded_uri": "http://www.wikidata.org/entity/Q5537047",
       "in_degree": 0,
-      "out_degree": 1,
+      "out_degree": 2,
       "years": [
         1881,
         1881
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "meason",
       "label": "WM. LAING MEASON",
       "grounded_uri": "http://id.lincsproject.ca/qdQBbeEkyqS",
       "in_degree": 0,
-      "out_degree": 1,
+      "out_degree": 2,
       "years": [
         1886,
         1886
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "phillips",
       "label": "Mr. Phillips",
       "grounded_uri": "http://id.lincsproject.ca/gea75vYBKkE",
       "in_degree": 0,
-      "out_degree": 1,
+      "out_degree": 2,
       "years": [
         1887,
         1887
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "fletcher",
       "label": "FLETCHER, D.L.S.",
       "grounded_uri": "http://id.lincsproject.ca/lx81h6BjcFM",
       "in_degree": 0,
-      "out_degree": 1,
+      "out_degree": 2,
       "years": [
         1891,
         1891
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "lewis",
       "label": "Mr. Lewis",
       "grounded_uri": null,
       "in_degree": 0,
-      "out_degree": 1,
+      "out_degree": 2,
       "years": [
         1894,
         1894
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "gore",
       "label": "Mr. W.S. Gore",
       "grounded_uri": null,
       "in_degree": 1,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": [
         1894,
         1894
       ],
-      "section_count": 1
+      "section_count": 1,
+      "is_department": false
     },
     {
       "id": "mackay",
       "label": "J.W. MACKAY",
       "grounded_uri": "http://id.lincsproject.ca/iLewz6EQDk1",
       "in_degree": 0,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": null,
-      "section_count": 0
+      "section_count": 0,
+      "is_department": false
     },
     {
       "id": "tunstall",
       "label": "G.C. TUNSTALL",
       "grounded_uri": null,
       "in_degree": 0,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": null,
-      "section_count": 0
+      "section_count": 0,
+      "is_department": false
     },
     {
       "id": "johns",
       "label": "Gomer Johns",
       "grounded_uri": "http://id.lincsproject.ca/QSSEg72nYEr",
       "in_degree": 0,
-      "out_degree": 0,
+      "out_degree": 1,
       "years": null,
-      "section_count": 0
+      "section_count": 0,
+      "is_department": false
     }
   ],
   "edges": [
@@ -183,7 +211,8 @@
       ],
       "count": 2,
       "section_count": 2,
-      "evidence_sample": "I have the honor to be, Sir, Your obedient servant, E.M. SKINNER... P. O'REILLY, Esq., Indian Reserve Commissioner"
+      "evidence_sample": "I have the honor to be, Sir, Your obedient servant, E.M. SKINNER... P. O'REILLY, Esq., Indian Reserve Commissioner",
+      "synthetic": false
     },
     {
       "source": "devereux",
@@ -195,7 +224,8 @@
       ],
       "count": 2,
       "section_count": 2,
-      "evidence_sample": "I received your instructions to report at Victoria"
+      "evidence_sample": "I received your instructions to report at Victoria",
+      "synthetic": false
     },
     {
       "source": "jemmett",
@@ -207,7 +237,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "I have the honor to report that I have completed the surveys... (Signed) WILLIAM S. JEMMETT, Surveyor. COL. POWELL, Indian Superintendent"
+      "evidence_sample": "I have the honor to report that I have completed the surveys... (Signed) WILLIAM S. JEMMETT, Surveyor. COL. POWELL, Indian Superintendent",
+      "synthetic": false
     },
     {
       "source": "blenkinsop",
@@ -219,7 +250,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "I.W. POWELL, Esq., Indian Superintendent... In accordance with your instructions I have now the honor to submit... a Report"
+      "evidence_sample": "I.W. POWELL, Esq., Indian Superintendent... In accordance with your instructions I have now the honor to submit... a Report",
+      "synthetic": false
     },
     {
       "source": "meason",
@@ -231,7 +263,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "according to instructions received from Superintendent Powell, I took a new census"
+      "evidence_sample": "according to instructions received from Superintendent Powell, I took a new census",
+      "synthetic": false
     },
     {
       "source": "phillips",
@@ -243,7 +276,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "Mr. Phillips, the Agent appointed by Dr. Powell"
+      "evidence_sample": "Mr. Phillips, the Agent appointed by Dr. Powell",
+      "synthetic": false
     },
     {
       "source": "devereux",
@@ -255,7 +289,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "P. O'REILLY, ESQ. Indian Reserve Commissioner... Your obedient servant, F.A. DEVEREUX, Indian Reserve Surveyor."
+      "evidence_sample": "P. O'REILLY, ESQ. Indian Reserve Commissioner... Your obedient servant, F.A. DEVEREUX, Indian Reserve Surveyor.",
+      "synthetic": false
     },
     {
       "source": "fletcher",
@@ -267,7 +302,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "HON. P. O'REILLY Indian Reserve Commissioner... To have the honour to be, Sir, Your obedient servant, FLETCHER, D.L.S."
+      "evidence_sample": "HON. P. O'REILLY Indian Reserve Commissioner... To have the honour to be, Sir, Your obedient servant, FLETCHER, D.L.S.",
+      "synthetic": false
     },
     {
       "source": "lewis",
@@ -279,7 +315,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "place himself under the instructions of Mr. W.S. Gore"
+      "evidence_sample": "place himself under the instructions of Mr. W.S. Gore",
+      "synthetic": false
     },
     {
       "source": "devereux",
@@ -291,7 +328,8 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "A.W. VOWELL, Esq., Indian Reserve Commissioner... SIR, - I have the honour to present the following report"
+      "evidence_sample": "A.W. VOWELL, Esq., Indian Reserve Commissioner... SIR, - I have the honour to present the following report",
+      "synthetic": false
     },
     {
       "source": "skinner",
@@ -303,16 +341,203 @@
       ],
       "count": 1,
       "section_count": 1,
-      "evidence_sample": "A.W. VOWELL, Esq., Indian Reserve Commissioner... SIR, - I have the honour to present the following report"
+      "evidence_sample": "A.W. VOWELL, Esq., Indian Reserve Commissioner... SIR, - I have the honour to present the following report",
+      "synthetic": false
+    },
+    {
+      "source": "jemmett",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1881,
+        1881
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "powell",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1881,
+        1887
+      ],
+      "count": 0,
+      "section_count": 4,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "blenkinsop",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1881,
+        1881
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "mackay",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": null,
+      "count": 0,
+      "section_count": 0,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "tunstall",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": null,
+      "count": 0,
+      "section_count": 0,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "meason",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1886,
+        1886
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "phillips",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1887,
+        1887
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "skinner",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1889,
+        1898
+      ],
+      "count": 0,
+      "section_count": 3,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "oreilly",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1889,
+        1894
+      ],
+      "count": 0,
+      "section_count": 5,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "devereux",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1891,
+        1898
+      ],
+      "count": 0,
+      "section_count": 3,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "fletcher",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1891,
+        1891
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "johns",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": null,
+      "count": 0,
+      "section_count": 0,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "lewis",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1894,
+        1894
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "gore",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1894,
+        1894
+      ],
+      "count": 0,
+      "section_count": 1,
+      "evidence_sample": null,
+      "synthetic": true
+    },
+    {
+      "source": "vowell",
+      "target": "__dia__",
+      "predicate": "employed_by",
+      "years": [
+        1898,
+        1898
+      ],
+      "count": 0,
+      "section_count": 2,
+      "evidence_sample": null,
+      "synthetic": true
     }
   ],
   "stats": {
-    "nodes": 15,
-    "edges": 11,
+    "nodes": 16,
+    "edges": 26,
     "grounded_nodes": 11,
     "by_predicate": {
       "reports_to": 9,
-      "employed_by": 2
+      "employed_by": 17
     },
     "skipped": {
       "object_not_person": 68,

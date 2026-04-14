@@ -242,21 +242,36 @@ function renderAdminNetwork(payload) {
   const edges = payload.edges.map(e => Object.assign({}, e));
 
   const nodeById = new Map(nodes.map(n => [n.id, n]));
-  const radiusFor = n => 6 + 2 * Math.sqrt(n.in_degree + n.out_degree);
+  const radiusFor = n =>
+    n.is_department ? 28
+    : 6 + 2 * Math.sqrt(n.in_degree + n.out_degree);
+
+  // Pin the department hub to the centre so the graph can't drift.
+  nodes.forEach(n => {
+    if (n.is_department) {
+      n.fx = width / 2;
+      n.fy = height / 2;
+    }
+  });
 
   const sim = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(edges).id(d => d.id).distance(95).strength(0.6))
-    .force('charge', d3.forceManyBody().strength(-340))
+    .force('link', d3.forceLink(edges)
+      .id(d => d.id)
+      .distance(e => e.predicate === 'employed_by' && e.target.is_department ? 180 : 90)
+      .strength(e => e.synthetic ? 0.15 : 0.7))
+    .force('charge', d3.forceManyBody().strength(-320))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collide', d3.forceCollide().radius(d => radiusFor(d) + 10));
+    .force('x', d3.forceX(width / 2).strength(0.05))
+    .force('y', d3.forceY(height / 2).strength(0.08))
+    .force('collide', d3.forceCollide().radius(d => radiusFor(d) + 12));
 
   const link = svg.append('g')
     .selectAll('path')
     .data(edges)
     .join('path')
-      .attr('class', e => `admin-edge ${e.predicate}`)
-      .attr('marker-end', e => `url(#arrow-${e.predicate})`)
-      .attr('stroke-width', e => 1.5 + Math.log2(1 + e.count))
+      .attr('class', e => `admin-edge ${e.predicate}${e.synthetic ? ' synthetic' : ''}`)
+      .attr('marker-end', e => e.synthetic ? null : `url(#arrow-${e.predicate})`)
+      .attr('stroke-width', e => e.synthetic ? 1 : 1.5 + Math.log2(1 + e.count))
       .on('mousemove', (ev, e) => {
         const sourceLabel = nodeById.get(e.source.id || e.source)?.label || '';
         const targetLabel = nodeById.get(e.target.id || e.target)?.label || '';
@@ -275,18 +290,30 @@ function renderAdminNetwork(payload) {
     .selectAll('g')
     .data(nodes)
     .join('g')
-      .attr('class', n => `admin-node ${n.grounded_uri ? 'grounded' : 'ungrounded'}`)
+      .attr('class', n =>
+        'admin-node ' +
+        (n.is_department ? 'department' : (n.grounded_uri ? 'grounded' : 'ungrounded')))
       .call(d3.drag()
-        .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
-        .on('drag',  (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-        .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+        .on('start', (ev, d) => {
+          if (d.is_department) return;  // hub stays pinned
+          if (!ev.active) sim.alphaTarget(0.3).restart();
+          d.fx = d.x; d.fy = d.y;
+        })
+        .on('drag',  (ev, d) => { if (d.is_department) return; d.fx = ev.x; d.fy = ev.y; })
+        .on('end',   (ev, d) => {
+          if (d.is_department) return;
+          if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null;
+        }));
 
   node.append('circle').attr('r', radiusFor);
 
   node.append('text')
-    .attr('x', n => radiusFor(n) + 4)
-    .attr('y', 4)
-    .text(n => n.label.replace(/,.*$/, '').replace(/\s+(Esq\.?|M\.?D\.?)$/i, ''));
+    .attr('x', n => n.is_department ? 0 : radiusFor(n) + 4)
+    .attr('y', n => n.is_department ? 4 : 4)
+    .attr('text-anchor', n => n.is_department ? 'middle' : 'start')
+    .text(n => n.is_department
+      ? 'Dept. of Indian Affairs'
+      : n.label.replace(/,.*$/, '').replace(/\s+(Esq\.?|M\.?D\.?)$/i, ''));
 
   node.on('mousemove', (ev, n) => {
     const years = n.years ? `${n.years[0]}–${n.years[1]}` : '';
@@ -300,11 +327,14 @@ function renderAdminNetwork(payload) {
   }).on('mouseleave', () => { tooltip.style.display = 'none'; });
 
   sim.on('tick', () => {
-    link.attr('d', e => {
-      const dx = e.target.x - e.source.x;
-      const dy = e.target.y - e.source.y;
-      return `M${e.source.x},${e.source.y}L${e.target.x},${e.target.y}`;
+    // Clamp each node so it can't float off-screen.
+    nodes.forEach(d => {
+      if (d.is_department) return;
+      const r = radiusFor(d) + 4;
+      d.x = Math.max(r, Math.min(width - r, d.x));
+      d.y = Math.max(r, Math.min(height - r, d.y));
     });
+    link.attr('d', e => `M${e.source.x},${e.source.y}L${e.target.x},${e.target.y}`);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
 }

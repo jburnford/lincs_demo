@@ -231,6 +231,40 @@ def main():
         if not e['evidence_sample'] and r.get('evidence'):
             e['evidence_sample'] = r['evidence'][:240]
 
+    # Synthesise a central "Department of Indian Affairs" hub so the
+    # graph is a single connected component. Every person node gets an
+    # `employed_by` edge to the department.
+    DIA_ID = '__dia__'
+    dia_node_ref = {
+        'id': DIA_ID,
+        'label_variants': ['Department of Indian Affairs'],
+        'grounded_uri': None,
+        'in_degree': 0,
+        'out_degree': 0,
+        'years': set(),
+        'section_ids': set(),
+        'is_department': True,
+    }
+    nodes[DIA_ID] = dia_node_ref
+    for nid, n in list(nodes.items()):
+        if nid == DIA_ID:
+            continue
+        ekey = (nid, DIA_ID, 'employed_by')
+        edges_agg.setdefault(ekey, {
+            'source': nid,
+            'target': DIA_ID,
+            'predicate': 'employed_by',
+            'years': set(n['years']),
+            'count': 0,
+            'evidence_sample': None,
+            'section_ids': set(n['section_ids']),
+            'synthetic': True,
+        })
+        dia_node_ref['in_degree'] += 1
+        dia_node_ref['years'] |= n['years']
+        dia_node_ref['section_ids'] |= n['section_ids']
+        n['out_degree'] += 1  # connection to department
+
     # Finalize nodes
     nodes_out = []
     for n in nodes.values():
@@ -243,6 +277,7 @@ def main():
             'out_degree': n['out_degree'],
             'years': [years[0], years[-1]] if years else None,
             'section_count': len(n['section_ids']),
+            'is_department': n.get('is_department', False),
         })
     nodes_out.sort(key=lambda n: -(n['in_degree'] + n['out_degree']))
 
@@ -257,6 +292,7 @@ def main():
             'count': e['count'],
             'section_count': len(e['section_ids']),
             'evidence_sample': e['evidence_sample'],
+            'synthetic': e.get('synthetic', False),
         })
     edges_out.sort(key=lambda e: -e['count'])
 

@@ -177,18 +177,23 @@
     <em>administers</em>, <em>employed_by</em>, <em>serves_as</em>,
     and so on. In the 249 sections that mention at least one
     BC-serving LINCS agent, the pipeline extracted 3,593 such
-    relationships. The graph below shows just the person-to-person
-    administrative edges: 11 edges after a human audit (13 extracted;
-    two filtered as predicate-wrong), 15 distinct people, 11 of whom
-    match a LINCS URI.
+    relationships. The graph below shows the person-to-person
+    administrative edges (11 edges after a human audit — 13 extracted,
+    two filtered as predicate-wrong), with every individual anchored
+    to a central <strong>Department of Indian Affairs</strong> hub so
+    the graph is a single connected component rather than a set of
+    floating sub-networks. 15 distinct people, 11 of whom match a
+    LINCS URI.
   </p>
   <div id="admin-network-svg"></div>
   <p class="place-map-stats" id="admin-network-legend">
     <span class="region-legend">
+      <span><span class="swatch" style="background:var(--ink);border:2px solid var(--accent)"></span>Department hub</span>
       <span><span class="swatch" style="background:var(--accent)"></span>Grounded to LINCS</span>
-      <span><span class="swatch" style="background:#b8ae97"></span>Ungrounded</span>
+      <span><span class="swatch" style="background:#e8dfc5;border:1px solid var(--ink)"></span>Ungrounded</span>
       <span><span class="swatch" style="background:#2c6e85"></span>reports_to</span>
       <span><span class="swatch" style="background:#b87333"></span>employed_by</span>
+      <span><span class="swatch" style="background:#b8ae97"></span>affiliation (synthetic)</span>
     </span>
   </p>
   <p>

@@ -344,6 +344,17 @@ ol li { margin: 0.4rem 0; }
 }
 .admin-node.grounded circle { fill: var(--accent); }
 .admin-node.ungrounded circle { fill: #e8dfc5; }
+.admin-node.department circle {
+  fill: var(--ink);
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+.admin-node.department text {
+  fill: var(--paper);
+  font-weight: 700;
+  font-size: 10px;
+  stroke: none;
+}
 .admin-node text {
   font-family: Georgia, serif;
   font-size: 11px;
@@ -360,6 +371,11 @@ ol li { margin: 0.4rem 0; }
 }
 .admin-edge.reports_to { stroke: var(--bc); }
 .admin-edge.employed_by { stroke: var(--prairies); }
+.admin-edge.synthetic {
+  stroke: #b8ae97;
+  stroke-opacity: 0.35;
+  stroke-dasharray: 3 3;
+}
 .admin-tooltip {
   position: absolute;
   background: var(--ink);
